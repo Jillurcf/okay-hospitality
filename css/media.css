@@ -1,0 +1,4382 @@
+@media (min-width:576px) and (max-width: 768px) {
+    /* hero slider start */
+
+    .hero-slider {
+        position: absolute;
+        left: 50%;
+        top: 1.3%;
+        transform: translate(-50%, -1.3%);
+        width: 100%;
+        height: 350px;
+        padding: 50px;
+
+    }
+
+    .item {
+        width: 100px;
+        height: 150px;
+
+
+    }
+
+    .item:nth-child(3) {
+        left: 50%;
+
+    }
+
+    .item:nth-child(3) {
+        left: calc(50% + 120px);
+    }
+
+    .item:nth-child(4) {
+        left: calc(50% + 240px);
+    }
+
+    .item:nth-child(5) {
+        left: calc(50% + 370px);
+    }
+
+    .item:nth-child(n+6) {
+        left: calc(50% + 310px);
+        opacity: 0;
+    }
+
+    /* first slider end */
+
+
+
+    /* hotel-and-hospitality part start here */
+
+    /* second slider start */
+    .hotel-and-hospitality h1 {
+        font-size: 50px;
+        align-items: center;
+
+    }
+
+    .card-img-top {
+        height: 472px;
+
+    }
+
+    .card {
+
+        height: 472px;
+
+    }
+
+    .second-slider {
+        margin-left: 10px;
+    }
+
+    /* right-part */
+    .hotel-and-hospitality-right-row-management {
+        margin-top: 0px;
+    }
+
+
+
+
+    .icon-style {
+        padding: 15px;
+        margin: 50% 0;
+        font-size: 20px;
+
+
+    }
+
+    .icon-styles {
+        padding: 15px;
+        margin: 50% 0;
+        font-size: 20px;
+
+    }
+
+    .hotel-and-hospitality-right-row-management .description h1 {
+        font-size: 20px;
+
+    }
+
+    .hotel-and-hospitality-right-row-management .description p {
+        font-size: 10px;
+
+    }
+
+    .hotel-and-hospitality-right-row-planning-food-time {
+        background-color: #eaeaea;
+    }
+
+    .hotel-and-hospitality-right-row-planning-food-time h1 {
+        font-size: 20px;
+        margin-top: 35px;
+
+    }
+
+    .hotel-and-hospitality-right-row-planning-food-time p {
+        font-size: 10px;
+    }
+
+    /* hotel and hospitality part end here */
+
+    /* home page about us start */
+    .about-us h1 {
+        font-size: 40px;
+        margin-top: -50px;
+    }
+
+    .about-us p {
+        font-size: 15px;
+    }
+
+    .our-story h1 {
+
+        margin-top: 0px;
+    }
+
+    .our-story p {
+        font-size: 15px;
+
+    }
+
+    .our-mission-vision p {
+        font-size: 15px;
+    }
+
+
+    .our-mission-vision img {
+        margin-top: 20px;
+    }
+
+    /* home page about us end */
+    /* Free hospitality part start here */
+    .free-hospitality-education h1 {
+        font-size: 45px;
+
+    }
+
+    /* Free hospitality part end here */
+
+    /* Third slider start */
+
+    /* Recent insight block start from here */
+    .recent-insight-blogs {
+        margin-top: 20px;
+    }
+
+    .recent-insight-blogs h1 {
+        font-size: 35px;
+        margin-top: -50px;
+
+    }
+
+    .recent-insight-blogs .date-part h3 {
+
+        margin-top: 70%;
+        margin-left: 50%;
+        transform: translate(-70%, -50%);
+    }
+
+    .gray h3 {
+        margin-top: 70%;
+        margin-left: 50%;
+        transform: translate(-70%, -50%);
+    }
+
+    .recent-insight-blogs .description-part h1 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    .recent-insight-blogs .description-part p {
+        font-size: 20px;
+        font-weight: 400;
+        color: #fff;
+        margin-left: 50px;
+        margin-top: 20px;
+
+
+    }
+
+    .gray h1 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    .recent-insight-blogs a {
+        font-size: 15px;
+
+    }
+
+    /* Recent-insight-blogs end here */
+
+    /* Hellow world part start from here */
+    .hellow-world h1 {
+        font-size: 45px;
+    }
+
+    .hellow-world p {
+        color: #ffff;
+        line-height: 20px;
+
+    }
+
+    .hellow-world .btn {
+        padding: 15px;
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+
+    .hellowworld-right-image {
+        width: 70%;
+        height: 70%;
+        margin-top: 200px;
+        margin-bottom: 50px;
+    }
+
+    /* hellow world part end from here */
+
+    /* Education and consultancy part start here */
+
+
+    /* Education and consultancy part end here */
+
+    /* company overview video part start */
+    .company-overview-video {
+        min-height: 50vh;
+    }
+
+    .company-overview-video a {
+
+        left: 48%;
+        top: 47%;
+        transform: translate(-47% -48%);
+        font-size: 25px;
+    }
+
+    /* employment opportunity part start here */
+
+    .employment-opportunity {
+        margin-top: -70px;
+    }
+
+
+    .employment-opportunity .left-part p {
+        margin-bottom: -10px;
+    }
+
+    .employment-opportunity .right-part h1 {
+
+        margin-top: 20px;
+    }
+
+    /* employment opportunity part end here */
+
+    /* What people says part start here */
+
+    .what-people-says {
+        height: 70vh;
+        margin-top: -80px;
+    }
+
+    .what-people-says .left-part h5 {
+        margin-top: 30px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .what-people-says .left-part h1 {
+        margin-left: 0px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .what-people-says .left-part p {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .what-people-says .left-part .btn {
+        text-align: center;
+        margin-left: 35%;
+
+    }
+
+    .what-people-says .right-part img {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    /* What people says part end here */
+
+    /* Project to Invest part start here */
+    .project-to-invest h1 {
+        font-size: 35px;
+
+    }
+
+    .project-to-invest h3 {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .project-to-invest .card-one {
+        height: 400px;
+        /* margin-bottom: 200px; */
+    }
+
+    .project-to-invest .card-one h2 {
+        color: #ffff;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .project-to-invest .card-two {
+        height: 400px;
+    }
+
+    .project-to-invest .card-two h2 {
+        color: #ffff;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .project-to-invest .card-three {
+        height: 400px;
+    }
+
+
+    .project-to-invest .card-three h2 {
+        color: #ffff;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* Project to Invest part end here */
+    /* footer part start here */
+
+    /* footer part start*/
+
+    .footer-part {
+        background-color: #000000;
+        height: 483px;
+        margin-top: 50px;
+    }
+
+    .footer-part p {
+        margin-left: 50px;
+        color: #fff;
+    }
+
+    .footer-part a {
+        margin-left: 50px;
+        font-size: 10px;
+    }
+
+    .footer-part img {
+        margin-left: 0px;
+    }
+
+    .input-group {
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .footer-btn {
+        background-color: #0080C7;
+        color: #fff;
+    }
+
+    .footer-icon {
+        margin-left: 0px;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .footer-icon ul li {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        float: left;
+        border: 1px solid #ffff;
+        background-color: #ffff;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        align-items: center;
+        margin-left: 45px;
+
+    }
+
+    /* footer part end here */
+
+    /* HOME PAGE END FROM HERE */
+
+    /* ABOUT US PAGE START FROM HERE */
+
+    /* ABOUT US hero-Section */
+
+    .aboutus-page-hero-section h1 {
+
+        font-size: 50px;
+
+    }
+
+    .aboutus-page-hero-section h2 {
+
+        font-size: 45px;
+    }
+
+    .aboutus-page-hero-section p {
+        font-size: 20px;
+        margin-top: -100px;
+    }
+
+    .aboutus-hero-background-image {
+
+        min-height: 70vh;
+        margin-top: -20px;
+    }
+
+    /* about us hero section end here */
+
+    /* about us why we are seciton start from here */
+    .aboutus-page-why-are-strong h1 {
+        font-size: 45px;
+        margin-top: 20px;
+    }
+
+    .aboutus-page-why-are-strong h5 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .aboutus-page-why-are-strong p {
+        font-size: 15px;
+    }
+
+    /* about us why we are seciton end from here */
+
+    /* about us sajib-paul-ceo section start here  */
+
+    .Managing-partner img {
+        width: 100%;
+    }
+
+    .Managing-partner h1 {
+        color: #0080C7;
+        font-size: 45px;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+
+    .Managing-partner h4 {
+        font-size: 20px;
+        font-weight: 400;
+        color: #68696A;
+
+    }
+
+    .Managing-partner-rightpart-para h2 {
+        color: #0080C7;
+        font-size: 50px;
+        font-weight: 600;
+
+    }
+
+
+    /* about us sajib ceo part end here */
+
+    /* about us our story part start here */
+
+    .aboutus-our-story-image img {
+        margin-top: -100px;
+        width: 100%;
+    }
+
+    .aboutus-our-story-description h1 {
+        text-align: center;
+        font-size: 45px;
+        margin-top: -120px;
+
+    }
+
+    .aboutus-our-story-description p {
+        font-size: 15px;
+        margin-bottom: -100px;
+    }
+
+    /* about us our story part end here */
+
+    /* about us our mission part start here */
+    .aboutus-our-mission-description h1 {
+        font-size: 45px;
+
+
+    }
+
+    .aboutus-our-mission-description p {
+        font-size: 15px;
+        margin-top: -50px;
+    }
+
+    .aboutus-our-mission-image img {
+        margin-top: 100px;
+    }
+
+    /* about us our mission part end here */
+    /* about us our vision part start here */
+    .aboutus-our-vision img {
+        margin-left: 0px;
+        width: 100%;
+
+    }
+
+    .aboutus-our-vision-description h1 {
+        font-size: 45px;
+        margin-top: -80px;
+    }
+
+    .aboutus-our-vision-description p {
+        font-size: 15px;
+    }
+
+    /* about us our vision part end here */
+
+    /* about us rising part start here */
+    .aboutus-rising-collum p {
+        font-size: 15px;
+        text-align: center;
+
+    }
+
+    .aboutus-rising-collum h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    /* about us rising part end here */
+
+    /* ABOUT US MEET OUR STRONG TEAM START FROM HERE */
+
+    /* about us meet our team start from here */
+
+    .about-us-meet-our-team {}
+
+    .about-us-add-page-meet-our-team h1 {
+        font-size: 150px;
+        color: #D9D9D9;
+        font-weight: 900;
+        margin-top: 50px;
+    }
+
+    .aboutus-meet-our-team-descripion p {
+        text-align: center;
+    }
+
+    .aboutus-meet-our-team-members img {
+        margin-left: 0px;
+    }
+
+    .aboutus-meet-our-team-members h4 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .aboutus-meet-our-team-members h6 {
+        text-align: center;
+    }
+
+
+    /* ABOUT US SUB MENU MEET OUR STRONG TEAM STRAT FROM HERE */
+    /* about us sub menu meet our strong team start from here */
+    .aboutus-submenu-meet-our-strong-team-hero-section h1 {
+        font-size: 100px;
+        margin-top: 20px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-hero-section h2 {
+        font-size: 40px;
+        margin-top: 90px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-hero-section p {}
+
+    .aboutus-submenu-meet-our-strong-team-details h1 {
+        font-size: 45px;
+        margin-top: 80px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-details p {
+        margin-top: 100px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-members h4 {
+        font-size: 24px;
+
+
+
+    }
+
+    .sajib-paul {
+        margin-top: -500px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-members h6 {
+        font-size: 15px;
+
+
+    }
+
+    .aboutus-submenu-meet-our-strong-team-members img {
+        margin-left: 0px;
+    }
+
+    .tasnim-jahan {
+        margin-top: -100px;
+
+    }
+
+    .mehejabin-khan {
+        margin-top: -100px;
+    }
+
+    .payel-das {
+        margin-top: -100px;
+    }
+
+    /* about us sub menu meet our strong team end from here */
+    /* ABOUT US SUB MENU MEET OUR STRON TEAM END FROM HERE */
+
+
+    /* ABOUT US PAGE END FROM HERE */
+
+
+    /* MANAGEMENT/CONSULTANCY PAGE START FROM HERE */
+    /* consultancy and managemnt-Hero Section start here */
+    .consultancy-and-Management-hero-section h1 {
+        font-size: 64px;
+    }
+
+    .consultancy-and-Management-hero-section h2 {
+        font-size: 24px;
+    }
+
+    .consultancy-and-Management-hero-section p {
+        font-size: 15px;
+        margin-top: -80px;
+    }
+
+    .consultancy-and-Management-hero-section-hero-image {
+        min-height: 80vh;
+        margin-top: -50px;
+    }
+
+    /* Management/consultancy-Hero Section end here */
+
+
+    /* Mangement/consultancy In Details part start from here */
+    .consultancy-and-management-details h1 {
+        font-size: 34px;
+    }
+
+    .consultancy-and-management-details h4 {
+        font-size: 15px;
+        margin-top: -20px;
+    }
+
+    .consultancy-and-management-details p {
+        color: #000000;
+        font-size: 10px;
+    }
+
+    .consultancy-hotel-resort .left-part h1 {
+        text-align: right;
+    }
+
+    .consultancy-hotel-resort .left-part p {
+        text-align: center;
+    }
+
+    .consultancy-hotel-resort .left-part h6 {
+        text-align: start;
+    }
+
+    .consultancy-restaurant .right-part h1 {}
+
+    .consultancy-restaurant .right-part p {}
+
+    .consultancy-restaurant.right-part h6 {}
+
+    .consultancy-welness-concept-spa .left-part h1 {
+
+        text-align: center;
+    }
+
+    .consultancy-welness-concept-spa .left-part p {
+        text-align: center;
+    }
+
+    .consultancy-welness-concept-spa .left-part h6 {
+        text-align: start;
+    }
+
+    .consultancy-franchise-management .right-part h1 {}
+
+    .consultancy-franchise-management .right-part p {}
+
+    .consultancy-franchise-management .right-part h6 {}
+
+
+    .consultancy-hrm .left-part h1 {
+        text-align: center;
+
+    }
+
+    .consultancy-hrm .left-part p {
+        text-align: center;
+
+    }
+
+    .consultancy-education-consultancy .right-part h1 {}
+
+    .consultancy-education-consultancy .right-part p {
+        text-align: start;
+    }
+
+    .consultancy-education-consultancy .right-part h6 {}
+
+    .consultancy-visaImigration .left-part h1 {
+        margin-top: -60px;
+        text-align: center;
+    }
+
+    .consultancy-visaImigration .left-part p {
+        text-align: center;
+    }
+
+    .consultancy-visaImigration .left-part h6 {
+        text-align: start;
+
+
+    }
+
+    /* Management/consultancy In Details part end from here */
+
+
+
+    /* Mangement/consultancy MD part start from here */
+
+    .consultancy-md-part {
+
+        /* width: 100%; */
+        height: 90vh;
+    }
+
+    .consultancy-md-part img {
+        margin-top: 0px;
+
+    }
+
+
+    .consultancy-md-part h4 {
+
+        margin-top: 10;
+
+    }
+
+
+    .consultancy-md-part h6 {
+        color: #e4e4e4;
+
+    }
+
+    .consultancy-md-part .paragraph {
+
+
+        font-size: 15px;
+        margin-top: 100px;
+    }
+
+    .consultancy-md-part span {}
+
+
+    /* Mangement/consultancy MENU PAGE MD part end from here */
+
+
+
+    /* consultancy and Management page end here */
+
+    /* MANAGEMENT/CONSULTANCY MENU PAGE END HERE */
+
+
+}
+
+
+
+@media (min-width:426px) and (max-width: 575px) {
+    /* hero slider start */
+
+
+    .hero-slider {
+        position: absolute;
+        left: 50%;
+        top: 1.3%;
+        transform: translate(-50%, -1.3%);
+        width: 100%;
+        height: 350px;
+        padding: 50px;
+
+    }
+
+    .item {
+        width: 50px;
+        height: 80px;
+
+
+    }
+
+    .item:nth-child(3) {
+        left: 50%;
+
+    }
+
+    .item:nth-child(3) {
+        left: calc(50% + 190px);
+    }
+
+    .item:nth-child(4) {
+        left: calc(50% + 250px);
+    }
+
+    .item:nth-child(5) {
+        left: calc(50% + 310px);
+    }
+
+    .item:nth-child(n+6) {
+        left: calc(50% + 310px);
+        opacity: 0;
+    }
+
+    /* first slider end */
+
+    /* hotel-and-hospitality part start from here */
+
+    /* second slider start */
+
+    .card-img-top {
+        height: 472px;
+
+    }
+
+    .card {
+
+        height: 472px;
+
+    }
+
+    .second-slider {
+        margin-left: 10px;
+    }
+
+    .hotel-and-hospitality-right-row-management {
+        margin-top: -100px;
+    }
+
+    .hotel-and-hospitality h1 {
+        font-size: 50px;
+        align-items: center;
+
+    }
+
+    .hotel-and-hospitality-right-row-management .description h1 {
+        color: #ffff;
+        padding-top: 30px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .hotel-and-hospitality-right-row-management .description p {
+        color: #fff;
+        padding-bottom: 10px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .hotel-and-hospitality-right-row-planning-food-time {
+        background-color: #eaeaea;
+    }
+
+    .hotel-and-hospitality-right-row-planning-food-time h1 {
+        color: #0080C7;
+        padding-top: 30px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .hotel-and-hospitality-right-row-planning-food-time p {
+        color: rgb(31, 30, 30);
+        padding-bottom: 10px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    /* .hotel-and-hospitality-right-col h1 {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 150px;
+        margin-top: -300px;
+        padding-top: 0;
+    }
+
+    .hotel-and-hospitality-right-col p {
+        font-size: 10px;
+        text-align: center;
+        margin-left: 150px;
+        padding-bottom: 0;
+    }
+
+    .hotel-and-hospitality-right-col .icon {
+        margin-left: 70px;
+        margin-top: -150px;
+    } */
+
+    /* home page about us start */
+    .about-us h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .home-ourstory-image {
+        text-align: center;
+    }
+
+    .our-story h1 {
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .our-story p {
+        text-align: center;
+    }
+
+    .home-aboutus-image {
+        margin-left: 15%;
+    }
+
+    .about-us p {
+        text-align: center;
+    }
+
+    .our-mission-vision img {
+        margin-top: 20px;
+    }
+
+    /* home page about us end */
+    /* Free hospitality part start here */
+    .free-hospitality-education h1 {
+        font-size: 45px;
+
+    }
+
+    /* Free hospitality part end here */
+
+    /* Third slider start */
+
+    /* Recent insight block start */
+    .recent-insight-blogs {
+        margin-top: 20px;
+    }
+
+    .recent-insight-blogs h1 {
+        font-size: 35px;
+        margin-top: -50px;
+        text-align: center;
+
+    }
+
+    .recent-insight-blogs .date-part {
+        height: 150px;
+
+    }
+
+    .recent-insight-blogs .date-part h3 {
+        text-align: center;
+        margin-top: 20%;
+        margin-left: 50%;
+
+    }
+
+    .recent-insight-blogs .description-part h1 {
+        font-size: 35px;
+        margin-left: 0px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .recent-insight-blogs .description-part p {
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .gray-date-part {
+        height: 150px;
+
+    }
+
+    .gray h3 {
+        text-align: center;
+        margin-top: 20%;
+        margin-left: 50%;
+
+    }
+
+    .gray h1 {
+        font-size: 35px;
+        margin-left: 0px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .gray p {
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+    /* Recent-insight-blogs end here */
+
+    /* Hellow world part start from here */
+
+
+    /* hellow world part end from here */
+
+    /* Education and consultancy part start here */
+
+
+    /* Education and consultancy part end here */
+
+    /* company overview video part start */
+    .company-overview-video {
+        min-height: 50vh;
+    }
+
+    .company-overview-video a {
+
+        left: 45%;
+        top: 47%;
+        transform: translate(-40% -47%);
+        font-size: 25px;
+    }
+
+    /* employment opportunity part start here */
+
+    .employment-opportunity {
+        margin-top: -70px;
+    }
+
+
+    .employment-opportunity .left-part p {
+        margin-bottom: -10px;
+    }
+
+    .employment-opportunity .right-part h1 {
+
+        margin-top: 20px;
+    }
+
+    /* employment opportunity part end here */
+
+    /* What people says part start here */
+
+    .what-people-says {
+        height: 100vh;
+        margin-top: -80px;
+    }
+
+    .what-people-says .left-part h5 {
+        margin-top: 15px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .what-people-says .left-part h1 {
+        margin-left: 0px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .what-people-says .left-part p {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .what-people-says .left-part .btn {
+        text-align: center;
+        margin-left: 40%;
+
+    }
+
+    .what-people-says .right-part img {
+        margin-top: 20px;
+        margin-left: 120px;
+        width: 50%;
+    }
+
+    /* What people says part end here */
+    /* Project to Invest part start here */
+    .project-to-invest h1 {
+        font-size: 35px;
+        margin-top: 50px;
+
+    }
+
+    .project-to-invest h3 {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+
+
+    .project-to-invest .card-one {
+        height: 550px;
+    }
+
+    .project-to-invest .card-one h2 {
+        color: #ffff;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .project-to-invest .card-two {
+        height: 550px;
+    }
+
+    .project-to-invest .card-two h2 {
+        color: #ffff;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .project-to-invest .card-three {
+        height: 550px;
+    }
+
+
+    .project-to-invest .card-three h2 {
+        color: #ffff;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    /* Project to Invest part end here */
+    /* footer part start here */
+
+    /* footer part start*/
+
+    .footer-part {
+        background-color: #000000;
+        height: 683px;
+        margin-top: 50px;
+    }
+
+    .footer-part p {
+        /* margin-left: 70px; */
+        color: #fff;
+    }
+
+    .footer-part img {
+        margin-left: 0px;
+    }
+
+    .input-group {
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .footer-btn {
+        background-color: #0080C7;
+        color: #fff;
+    }
+
+    .footer-icon {
+        margin-left: 0px;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .footer-icon ul li {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        float: left;
+        border: 1px solid #ffff;
+        background-color: #ffff;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        align-items: center;
+        margin-left: 15px;
+
+    }
+
+    /* footer part end here */
+    /* HOME PAGE END FORM HERE */
+
+
+    /* ABOUT US PAGE START FROM HERE */
+    /* ABOUT US PAGE START FROM HERE */
+
+    /* ABOUT US hero-Section */
+
+    .aboutus-page-hero-section h1 {
+
+        font-size: 50px;
+
+    }
+
+    .aboutus-page-hero-section h2 {
+
+        font-size: 45px;
+    }
+
+    .aboutus-page-hero-section p {
+        font-size: 20px;
+        margin-top: -100px;
+    }
+
+    .aboutus-hero-background-image {
+
+        min-height: 50vh;
+        margin-top: -20px;
+    }
+
+    /* about us hero section end here */
+
+    /* about us why we are seciton start from here */
+    .aboutus-page-why-are-strong h1 {
+        font-size: 45px;
+        margin-top: 20px;
+    }
+
+    .aboutus-page-why-are-strong h5 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .aboutus-page-why-are-strong p {
+        font-size: 15px;
+    }
+
+    /* about us why we are seciton end from here */
+
+    /* about us sajib-paul-ceo section start here  */
+    .aboutus-sajib-paul-ceo img {
+        margin-top: -70px;
+        margin-left: 200px;
+
+    }
+
+    .aboutus-sajib-paul-ceo-description h4 {
+        margin-left: 200px;
+        font-size: 20px;
+        margin-top: -40px;
+
+    }
+
+    .aboutus-sajib-paul-ceo-description h6 {
+        margin-left: 190px;
+        font-size: 15px;
+    }
+
+    .aboutus-sajib-paul-ceo-rightpart-para {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    /* about us sajib ceo part end here */
+
+    /* about us our story part start here */
+
+    .aboutus-our-story-image img {
+        margin-top: -100px;
+        width: 100%;
+    }
+
+    .aboutus-our-story-description h1 {
+        text-align: center;
+        font-size: 45px;
+        margin-top: 20px;
+
+    }
+
+    .aboutus-our-story-description p {
+        font-size: 15px;
+        margin-bottom: -100px;
+    }
+
+    /* about us our story part end here */
+
+    /* about us our mission part start here */
+    .aboutus-our-mission-description h1 {
+        font-size: 45px;
+
+
+    }
+
+    .aboutus-our-mission-description p {
+        font-size: 15px;
+        margin-top: -50px;
+    }
+
+    /* about us our mission part end here */
+    /* about us our vision part start here */
+    .aboutus-our-vision img {
+        margin-left: 0px;
+        width: 100%;
+
+    }
+
+    .aboutus-our-vision-description h1 {
+        font-size: 45px;
+        margin-top: 20px;
+    }
+
+    .aboutus-our-vision-description p {
+        font-size: 15px;
+    }
+
+    /* about us our vision part end here */
+
+    /* about us rising part start here */
+    .aboutus-rising-collum p {
+        font-size: 15px;
+        text-align: center;
+
+    }
+
+    .aboutus-rising-collum h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    /* ABOUT US MEET OUR STRONG TEAM START FROM HEHE */
+    /* about us meet our team start from here */
+
+    .about-us-meet-our-team {}
+
+    .aboutus-meet-our-team-heading h1 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-members p {
+        text-align: center;
+    }
+
+    .aboutus-meet-our-team-members img {
+        margin-left: 60px;
+    }
+
+    .aboutus-meet-our-team-members h4 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .aboutus-meet-our-team-members h6 {
+        text-align: center;
+    }
+
+
+
+    /* about us rising part end here */
+
+    /* ABOUT US SUB MENU MEET OUR STRONG TEAM STRAT FROM HERE */
+    /* about us sub menu meet our strong team start from here */
+    .aboutus-submenu-meet-our-strong-team-hero-section h1 {
+        font-size: 100px;
+        margin-top: 20px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-hero-section h2 {
+        font-size: 50px;
+        margin-bottom: -70px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-hero-section p {}
+
+    .aboutus-submenu-meet-our-strong-team-details h1 {
+        font-size: 45px;
+        margin-bottom: -120px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-details p {
+        margin-top: 100px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-members h4 {
+        font-size: 24px;
+        text-align: center;
+
+    }
+
+    .aboutus-submenu-meet-our-strong-team-members h6 {
+        font-size: 15px;
+        text-align: center;
+
+    }
+
+    .aboutus-submenu-meet-our-strong-team-members img {
+        margin-left: 100px;
+    }
+
+    .tasnim-jahan {
+        margin-top: -100px;
+
+    }
+
+    .mehejabin-khan {
+        margin-top: -100px;
+    }
+
+    .payel-das {
+        margin-top: -100px;
+    }
+
+    /* about us sub menu meet our strong team end from here */
+    /* ABOUT US SUB MENU MEET OUR STRON TEAM END FROM HERE */
+
+
+    /* ABOUT US PAGE END FROM HERE */
+
+    /* MANAGEMENT/CONSULTANCY PAGE START FROM HERE */
+    /* consultancy and managemnt-Hero Section start here */
+    .consultancy-and-Management-hero-section h1 {
+        font-size: 40px;
+    }
+
+    .consultancy-and-Management-hero-section h2 {
+        font-size: 24px;
+    }
+
+    .consultancy-and-Management-hero-section p {
+        font-size: 15px;
+        margin-top: -80px;
+    }
+
+    .consultancy-and-Management-hero-section-hero-image {
+        min-height: 30vh;
+        margin-top: -50px;
+    }
+
+    /* Management/consultancy-Hero Section end here */
+
+
+    /* Mangement/consultancy In Details part start from here */
+    .consultancy-and-management-details h1 {
+        font-size: 34px;
+    }
+
+    .consultancy-and-management-details h4 {
+        font-size: 15px;
+        margin-top: -20px;
+    }
+
+    .consultancy-and-management-details p {
+        color: #000000;
+        font-size: 10px;
+    }
+
+    .consultancy-hotel-resort .left-part h1 {
+        text-align: center;
+    }
+
+    .consultancy-hotel-resort .left-part p {
+        text-align: center;
+    }
+
+    .consultancy-hotel-resort .left-part h6 {
+        text-align: start;
+    }
+
+    .consultancy-restaurant .right-part h1 {}
+
+    .consultancy-restaurant .right-part p {}
+
+    .consultancy-restaurant.right-part h6 {}
+
+    .consultancy-welness-concept-spa .left-part h1 {
+
+        text-align: center;
+    }
+
+    .consultancy-welness-concept-spa .left-part p {
+        text-align: center;
+    }
+
+    .consultancy-welness-concept-spa .left-part h6 {
+        text-align: start;
+    }
+
+    .consultancy-franchise-management .right-part h1 {}
+
+    .consultancy-franchise-management .right-part p {}
+
+    .consultancy-franchise-management .right-part h6 {}
+
+
+    .consultancy-hrm .left-part h1 {
+        text-align: center;
+
+    }
+
+    .consultancy-hrm .left-part p {
+        text-align: center;
+
+    }
+
+    .consultancy-education-consultancy .right-part h1 {}
+
+    .consultancy-education-consultancy .right-part p {
+        text-align: start;
+    }
+
+    .consultancy-education-consultancy .right-part h6 {}
+
+    .consultancy-visaImigration .left-part h1 {
+        margin-top: -60px;
+        text-align: center;
+    }
+
+    .consultancy-visaImigration .left-part p {
+        text-align: center;
+    }
+
+    .consultancy-visaImigration .left-part h6 {
+        text-align: start;
+
+
+    }
+
+    /* Management/consultancy In Details part end from here */
+
+
+
+    /* Mangement/consultancy MD part start from here */
+
+    .consultancy-md-part {
+
+        /* width: 100%; */
+        height: 150vh;
+    }
+
+    .consultancy-md-part img {
+        margin-top: 0px;
+
+    }
+
+
+    .consultancy-md-part h4 {
+
+        margin-top: 0px;
+
+    }
+
+
+    .consultancy-md-part h6 {
+        color: #e4e4e4;
+
+    }
+
+    .consultancy-md-part .paragraph {
+        text-align: start;
+        color: #E8E8E8;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+
+    .consultancy-md-part span {}
+
+
+
+    /* Mangement/consultancy MD part end from here */
+
+    /* consultancy and Management page end here */
+
+    /* MANAGEMENT/CONSULTANCY MENU PAGE END HERE */
+
+
+}
+
+@media (min-width:376px) and (max-width: 425px) {
+    /* hero slider start */
+
+    .master-slider h1,
+    h2,
+    h5 {
+        padding: 0px 0;
+    }
+
+    .master-slider h5 {
+        margin-right: 100px;
+        font-size: 15px;
+
+
+    }
+
+    .master-slider h1 {
+        margin-right: 100px;
+        font-size: 20px;
+
+
+    }
+
+    .master-slider h2 {
+        margin-right: 100px;
+        font-size: 18px;
+
+
+    }
+
+    .master-slider .btn {
+        font-size: 10px;
+
+    }
+
+    .buttons {
+        width: 65%;
+    }
+
+    .buttons button {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .hero-slider {
+        position: absolute;
+        left: 50%;
+        top: 1.3%;
+        transform: translate(-50%, -1.3%);
+        width: 100%;
+        height: 350px;
+        padding: 50px;
+
+    }
+
+    .item {
+        width: 50px;
+        height: 80px;
+
+
+    }
+
+    .item:nth-child(3) {
+        left: 50%;
+
+    }
+
+    .item:nth-child(3) {
+        left: calc(50% + 90px);
+    }
+
+    .item:nth-child(4) {
+        left: calc(50% + 150px);
+    }
+
+    .item:nth-child(5) {
+        left: calc(50% + 210px);
+    }
+
+    .item:nth-child(n+6) {
+        left: calc(50% + 310px);
+        opacity: 0;
+    }
+
+
+
+
+    /* first slider end */
+
+    /* second slider start */
+
+    .card-img-top {
+        height: 472px;
+
+    }
+
+    .card {
+
+        height: 472px;
+
+    }
+
+    .second-slider {
+        margin-left: 10px;
+    }
+
+    .hotel-and-hospitality-right-row-management {
+        margin-top: -100px;
+    }
+
+    .hotel-and-hospitality h1 {
+        font-size: 50px;
+        align-items: center;
+
+    }
+
+    .hotel-and-hospitality-right-row-management .description h1 {
+        color: #ffff;
+        padding-top: 30px;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        margin-left: 120px;
+        margin-top: -200px;
+    }
+
+    .hotel-and-hospitality-right-row-management .description p {
+        color: #fff;
+        padding-bottom: 10px;
+        font-size: 15px;
+        font-weight: 400;
+        margin-left: 165px;
+        margin-right: 20px;
+    }
+
+    .hotel-and-hospitality-right-row-planning-food-time {
+        background-color: #eaeaea;
+    }
+
+    .hotel-and-hospitality-right-row-planning-food-time h1 {
+        color: #0080C7;
+        padding-top: 30px;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        margin-left: 120px;
+        margin-top: -200px;
+    }
+
+    .hotel-and-hospitality-right-row-planning-food-time p {
+        color: rgb(31, 30, 30);
+        padding-bottom: 10px;
+        font-size: 15px;
+        font-weight: 400;
+        /* margin-left: 265px; */
+        /* margin-right: 20px; */
+    }
+
+
+
+    .hotel-and-hospitality-right-col p {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 165px;
+        margin-right: 20px;
+    }
+
+    .hotel-and-hospitality-right-col .icon {
+        margin-left: 70px;
+        margin-top: -150px;
+    }
+
+    /* home page about us start */
+    .about-us h1 {
+        font-size: 45px;
+    }
+
+    .our-story h1 {
+
+        margin-top: 0px;
+    }
+
+    .our-mission-vision img {
+        margin-top: 20px;
+    }
+
+    /* home page about us end */
+
+    /* home page invest in hotels and restaurant part start from here */
+    .Invest-in-hotels-restaurant {
+        padding: 10px;
+    }
+
+    .Invest-in-hotels-restaurant h1 {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    .Invest-in-hotels-restaurant p {
+        font-size: 15px;
+    }
+
+    .Invest-in-hotels-restaurant .btn {
+
+        padding: 10PX 10PX;
+        margin: 20px auto;
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+
+    /* home page invest in hotels and restaurant part end from here */
+
+
+    /* Free hospitality part start here */
+    .free-hospitality-education h1 {
+        font-size: 45px;
+
+    }
+
+    /* Free hospitality part end here */
+
+    /* Third slider start */
+
+    /* Recent insight block start */
+    .recent-insight-blogs {
+        margin-top: 20px;
+    }
+
+    .recent-insight-blogs h1 {
+        font-size: 35px;
+        margin-top: -50px;
+
+    }
+
+    .recent-insight-blogs .description-part h1 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    .recent-insight-blogs .description-part p {
+        font-size: 20px;
+        font-weight: 400;
+        color: #fff;
+        margin-left: 50px;
+        margin-top: 20px;
+
+    }
+
+    .gray h1 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    .recent-insight-blogs a {
+        font-size: 15px;
+
+    }
+
+    /* Recent-insight-blogs end here */
+
+    /* Hellow world part start from here */
+
+
+    /* hellow world part end from here */
+
+    /* Education and consultancy part start here */
+
+
+    /* Education and consultancy part end here */
+
+    /* company overview video part start */
+    .company-overview-video {
+        min-height: 50vh;
+    }
+
+    .company-overview-video a {
+
+        left: 45%;
+        top: 47%;
+        transform: translate(-40% -47%);
+        font-size: 25px;
+    }
+
+    /* employment opportunity part start here */
+
+    .employment-opportunity {
+        margin-top: -70px;
+    }
+
+
+    .employment-opportunity .left-part p {
+        margin-bottom: -10px;
+    }
+
+    .employment-opportunity .right-part h1 {
+
+        margin-top: 20px;
+    }
+
+    /* employment opportunity part end here */
+
+    /* What people says part start here */
+
+    .what-people-says {
+        height: 100vh;
+        margin-top: -80px;
+    }
+
+    .what-people-says .left-part h5 {
+        margin-top: 15px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .what-people-says .left-part h1 {
+        margin-left: 0px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .what-people-says .left-part p {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .what-people-says .left-part .btn {
+        text-align: center;
+        margin-left: 35%;
+
+    }
+
+    .what-people-says .right-part img {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    /* What people says part end here */
+
+    /* Real Estate Part Start from here */
+    .real-estate {
+        margin-top: 220px;
+    }
+
+    .real-estate h1 {
+        font-size: 34px;
+        font-weight: 700;
+    }
+
+    .real-estate-images img {
+        width: 100%;
+
+    }
+
+    /* Real Estate Part End from here */
+
+    /* Our supply part start from here */
+    .our-supply h1 {
+        font-size: 34px;
+        padding: 50px 0 10px 0;
+        text-align: center;
+    }
+
+    .our-supply h5 {
+        text-align: center;
+    }
+
+    .our-supply p {
+        text-align: center;
+        padding: 0 0 20px 0;
+    }
+
+    .our-supply .hotel-des {
+        text-align: center;
+    }
+
+
+    .description-row .icon {
+        text-align: center;
+        margin-top: -100px;
+        margin-bottom: -100px;
+    }
+
+    .our-supply img {
+        margin: 10px 0 0 0;
+    }
+
+
+    /* Our supply part end from here */
+    /* Travel and Tourism part start from here */
+    .travel-and-tourism h1 {
+        font-size: 34px;
+
+    }
+
+    .travel-and-tourism p {
+        text-align: center;
+    }
+
+    .travel-and-tourism button {
+        position: absolute;
+        top: 90%;
+        left: 75%;
+        transform: translate(-90%, -75%);
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
+
+    /* Travel and Tourism part end from here */
+
+    /* Our Partners part start from here */
+    .our-partners {
+        background-size: 60vh;
+    }
+
+    .our-partners h1 {
+
+        font-size: 34px;
+        padding-top: 20px;
+
+    }
+
+    .our-partners-logo {
+        padding: 50px 10px;
+        gap: 50px;
+    }
+
+    .our-partners img {}
+
+    /* Our Partners part end from here */
+    /* payment-getway part start from here */
+    .payment-getway img {
+        width: 250px;
+        text-align: center;
+
+    }
+
+
+
+    /* footer part start here */
+
+    /* footer part start*/
+
+    .footer-part {
+        background-color: #000000;
+        height: 683px;
+        margin-top: 50px;
+    }
+
+    .footer-part p {
+        /* margin-left: 70px; */
+        color: #fff;
+    }
+
+    .footer-part img {
+        margin-left: 0px;
+    }
+
+    .input-group {
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .footer-btn {
+        background-color: #0080C7;
+        color: #fff;
+    }
+
+    .footer-icon {
+        margin-left: 0px;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .footer-icon ul li {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        float: left;
+        border: 1px solid #ffff;
+        background-color: #ffff;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        align-items: center;
+        margin-left: 15px;
+
+    }
+
+    .footer-credit-line {
+        font-size: 10px;
+        background-color: #eaeaea;
+        padding: 10px;
+
+    }
+
+
+
+    /* HOME PAGE END FROM HERE */
+
+
+
+    /* ABOUT US PAGE START FROM HERE */
+    /* ABOUT US PAGE START FROM HERE */
+
+    /* ABOUT US hero-Section */
+
+    .aboutus-page-hero-section h1 {
+
+        font-size: 50px;
+
+    }
+
+    .aboutus-page-hero-section h2 {
+
+        font-size: 24px;
+    }
+
+    .aboutus-page-hero-section p {
+        font-size: 15px;
+        margin-top: -100px;
+    }
+
+    .aboutus-hero-background-image {
+
+        min-height: 30vh;
+        margin-top: -20px;
+    }
+
+    /* about us hero section end here */
+
+    /* about us why we are seciton start from here */
+    .aboutus-page-why-are-strong h1 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .aboutus-page-why-are-strong h5 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .aboutus-page-why-are-strong p {
+        font-size: 12px;
+    }
+
+    /* about us why we are seciton end from here */
+
+    /* about us sajib-paul-ceo section start here  */
+    .aboutus-sajib-paul-ceo img {
+        margin-top: -70px;
+        margin-left: 150px;
+
+    }
+
+    .aboutus-sajib-paul-ceo-description h4 {
+        margin-left: 150px;
+        font-size: 20px;
+        margin-top: -40px;
+
+    }
+
+    .aboutus-sajib-paul-ceo-description h6 {
+        margin-left: 140px;
+        font-size: 15px;
+    }
+
+    .aboutus-sajib-paul-ceo-rightpart-para {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    /* about us sajib ceo part end here */
+
+    /* about us our story part start here */
+
+    .aboutus-our-story-image img {
+        margin-top: -100px;
+        width: 100%;
+    }
+
+    .aboutus-our-story-description h1 {
+        text-align: center;
+        font-size: 24px;
+
+    }
+
+    .aboutus-our-story-description p {
+        font-size: 15px;
+        margin-bottom: -100px;
+    }
+
+    /* about us our story part end here */
+
+    /* about us our mission part start here */
+    .aboutus-our-mission-description h1 {
+        font-size: 24px;
+
+
+    }
+
+    .aboutus-our-mission-description p {
+        font-size: 15px;
+        margin-top: -50px;
+    }
+
+    /* about us our mission part end here */
+    /* about us our vision part start here */
+    .aboutus-our-vision img {
+        margin-left: 0px;
+        width: 100%;
+
+    }
+
+    .aboutus-our-vision-description h1 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .aboutus-our-vision-description p {
+        font-size: 15px;
+    }
+
+    /* about us our vision part end here */
+
+    /* about us rising part start here */
+    .aboutus-rising-collum p {
+        font-size: 15px;
+        text-align: center;
+
+    }
+
+    .aboutus-rising-collum h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    /* about us rising part end here */
+
+    /* ABOUT US MEET OUR STRONG TEAM START FROM HEHE */
+    /* about us meet our team start from here */
+
+    .about-us-meet-our-team {}
+
+    .aboutus-meet-our-team-heading h1 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .aboutus-meet-our-team-description p {}
+
+    .aboutus-meet-our-team-members img {}
+
+    .aboutus-meet-our-team-members h4 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .aboutus-meet-our-team-members h6 {
+        text-align: center;
+    }
+
+
+    /* ABOUTUS PAGE SUB MENU MEET OUR STRONG TEAM START FROM HERE */
+
+    /* about us sub menu meet our teem section start from here */
+
+    .aboutus-submenu-meet-our-team-master-heading h1 {
+        font-size: 45px;
+
+    }
+
+    .aboutus-submenu-meet-our-team-sub-heading h2 {
+        font-size: 20px;
+        margin-bottom: -70px;
+    }
+
+    .aboutus-submenu-meet-our-team-sub-heading-para p {
+        font-size: 15px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-para p {}
+
+    /* about us sub menu our team section end here */
+
+    /* ABOUT US SUB MENU MEET OUR STRONG TEAM STRAT FROM HERE */
+    /* about us sub menu meet our strong team start from here */
+    .aboutus-submenu-meet-our-strong-team-hero-section h1 {
+        font-size: 50px;
+        margin-top: 20px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-hero-section h2 {
+        font-size: 30px;
+        margin-bottom: -70px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-hero-section p {}
+
+    .aboutus-submenu-meet-our-strong-team-details h1 {
+        font-size: 24px;
+        margin-bottom: -120px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-details p {
+        margin-top: 100px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-members h4 {
+        font-size: 24px;
+
+    }
+
+    .aboutus-submenu-meet-our-strong-team-members h6 {
+        color: #868686;
+        font-size: 15px;
+
+    }
+
+    .tasnim-jahan {
+        margin-top: -100px;
+
+    }
+
+    .mehejabin-khan {
+        margin-top: -100px;
+    }
+
+    .payel-das {
+        margin-top: -100px;
+    }
+
+    /* about us sub menu meet our strong team end from here */
+    /* ABOUT US SUB MENU MEET OUR STRON TEAM END FROM HERE */
+
+
+    /* ABOUT US PAGE END FROM HERE */
+
+    /* MANAGEMENT/CONSULTANCY PAGE START FROM HERE */
+    /* consultancy and managemnt-Hero Section start here */
+    .consultancy-and-Management-hero-section h1 {
+        font-size: 40px;
+    }
+
+    .consultancy-and-Management-hero-section h2 {
+        font-size: 24px;
+    }
+
+    .consultancy-and-Management-hero-section p {
+        font-size: 15px;
+        margin-top: -80px;
+    }
+
+    .consultancy-and-Management-hero-section-hero-image {
+        min-height: 30vh;
+        margin-top: -50px;
+    }
+
+    /* Management/consultancy-Hero Section end here */
+
+
+    /* Mangement/consultancy In Details part start from here */
+    .consultancy-and-management-details h1 {
+        font-size: 34px;
+    }
+
+    .consultancy-and-management-details h4 {
+        font-size: 15px;
+        margin-top: -20px;
+    }
+
+    .consultancy-and-management-details p {
+        color: #000000;
+        font-size: 10px;
+    }
+
+    .consultancy-hotel-resort .left-part h1 {
+        text-align: center;
+    }
+
+    .consultancy-hotel-resort .left-part p {
+        text-align: center;
+    }
+
+    .consultancy-hotel-resort .left-part h6 {
+        text-align: start;
+    }
+
+    .consultancy-restaurant .right-part h1 {}
+
+    .consultancy-restaurant .right-part p {}
+
+    .consultancy-restaurant.right-part h6 {}
+
+    .consultancy-welness-concept-spa .left-part h1 {
+
+        text-align: center;
+    }
+
+    .consultancy-welness-concept-spa .left-part p {
+        text-align: center;
+    }
+
+    .consultancy-welness-concept-spa .left-part h6 {
+        text-align: start;
+    }
+
+    .consultancy-franchise-management .right-part h1 {}
+
+    .consultancy-franchise-management .right-part p {}
+
+    .consultancy-franchise-management .right-part h6 {}
+
+
+    .consultancy-hrm .left-part h1 {
+        text-align: center;
+
+    }
+
+    .consultancy-hrm .left-part p {
+        text-align: center;
+
+    }
+
+    .consultancy-education-consultancy .right-part h1 {}
+
+    .consultancy-education-consultancy .right-part p {
+        text-align: start;
+    }
+
+    .consultancy-education-consultancy .right-part h6 {}
+
+    .consultancy-visaImigration .left-part h1 {
+        margin-top: -60px;
+        text-align: center;
+    }
+
+    .consultancy-visaImigration .left-part p {
+        text-align: center;
+    }
+
+    .consultancy-visaImigration .left-part h6 {
+        text-align: start;
+
+
+    }
+
+    /* Management/consultancy In Details part end from here */
+
+
+
+    /* Mangement/consultancy MD part start from here */
+
+    .consultancy-md-part {
+
+        /* width: 100%; */
+        height: 150vh;
+    }
+
+    .consultancy-md-part img {
+        margin-top: 0px;
+
+    }
+
+
+    .consultancy-md-part h4 {
+
+        margin-top: 0px;
+
+    }
+
+
+    .consultancy-md-part h6 {
+        color: #e4e4e4;
+
+    }
+
+    .consultancy-md-part .paragraph {
+        text-align: start;
+        color: #E8E8E8;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+
+    .consultancy-md-part span {}
+
+
+
+    /* Mangement/consultancy MD part end from here */
+
+    /* consultancy and Management page end here */
+
+    /* Managememt/Consultancy Sub Menu Hotel and Resort Page start from Here */
+    /* hero section start from here */
+    .consultancy-and-Management-hotelandResort-hero-section h1 {
+
+        font-size: 50px;
+
+    }
+
+    .consultancy-and-Management-hotelandResort-hero-section h2 {
+        font-size: 24px;
+
+    }
+
+    .consultancy-and-Management-hotelandResort-hero-section-hero-image img {}
+
+    /* hero section end from here */
+
+
+
+    /* Managememt/Consultancy Sub Menu HOTEL and RESORT details part start from Here */
+    /* hotel resort start */
+
+    .consultancy-and-management-hotelAndResor-details h1 {
+        font-size: 34px;
+    }
+
+    /* Managememt/Consultancy Sub Menu Hotel and Resort details part end from Here */
+
+
+    /* MANAGEMENT/CONSULTANCY MENU PAGE END HERE */
+
+
+}
+
+@media (min-width:321px) and (max-width: 375px) {
+    /* hero slider start */
+
+    .master-slider h1,
+    h2,
+    h5 {
+        padding: 0px 0;
+    }
+
+    .master-slider h5 {
+        margin-right: 100px;
+        font-size: 15px;
+
+
+    }
+
+    .master-slider h1 {
+        margin-right: 100px;
+        font-size: 20px;
+
+
+    }
+
+    .master-slider h2 {
+        margin-right: 100px;
+        font-size: 18px;
+
+
+    }
+
+    .master-slider .btn {
+        font-size: 10px;
+
+    }
+
+    .buttons {
+        width: 65%;
+    }
+
+    .buttons button {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .hero-slider {
+        position: absolute;
+        left: 50%;
+        top: 1.3%;
+        transform: translate(-50%, -1.3%);
+        width: 100%;
+        height: 350px;
+        padding: 50px;
+
+    }
+
+    .item {
+        width: 50px;
+        height: 80px;
+
+
+    }
+
+    .item:nth-child(3) {
+        left: 50%;
+
+    }
+
+    .item:nth-child(3) {
+        left: calc(50% + 90px);
+    }
+
+    .item:nth-child(4) {
+        left: calc(50% + 150px);
+    }
+
+    .item:nth-child(5) {
+        left: calc(50% + 210px);
+    }
+
+    .item:nth-child(n+6) {
+        left: calc(50% + 310px);
+        opacity: 0;
+    }
+
+
+
+
+    /* first slider end */
+
+    /* second slider start */
+
+    .card-img-top {
+        height: 472px;
+
+    }
+
+    .card {
+
+        height: 472px;
+
+    }
+
+    .second-slider {
+        margin-left: 10px;
+    }
+
+    .hotel-and-hospitality-right-row-management {
+        margin-top: -100px;
+    }
+
+    .hotel-and-hospitality h1 {
+        font-size: 50px;
+        align-items: center;
+
+    }
+
+    .hotel-and-hospitality-right-row-management .description h1 {
+        color: #ffff;
+        padding-top: 30px;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        margin-left: 120px;
+        margin-top: -200px;
+    }
+
+    .hotel-and-hospitality-right-row-management .description p {
+        color: #fff;
+        padding-bottom: 10px;
+        font-size: 15px;
+        font-weight: 400;
+        margin-left: 165px;
+        margin-right: 20px;
+    }
+
+    .hotel-and-hospitality-right-row-planning-food-time {
+        background-color: #eaeaea;
+    }
+
+    .hotel-and-hospitality-right-row-planning-food-time h1 {
+        color: #0080C7;
+        padding-top: 30px;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        margin-left: 120px;
+        margin-top: -200px;
+    }
+
+    .hotel-and-hospitality-right-row-planning-food-time p {
+        color: rgb(31, 30, 30);
+        padding-bottom: 10px;
+        font-size: 15px;
+        font-weight: 400;
+        /* margin-left: 265px; */
+        /* margin-right: 20px; */
+    }
+
+
+
+    .hotel-and-hospitality-right-col p {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 165px;
+        margin-right: 20px;
+    }
+
+    .hotel-and-hospitality-right-col .icon {
+        margin-left: 70px;
+        margin-top: -150px;
+    }
+
+    /* home page about us start */
+    .about-us h1 {
+        font-size: 45px;
+    }
+
+    .our-story h1 {
+
+        margin-top: 0px;
+    }
+
+    .our-mission-vision img {
+        margin-top: 20px;
+    }
+
+    /* home page about us end */
+
+    /* home page invest in hotels and restaurant part start from here */
+    .Invest-in-hotels-restaurant {
+        padding: 10px;
+    }
+
+    .Invest-in-hotels-restaurant h1 {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    .Invest-in-hotels-restaurant p {
+        font-size: 15px;
+    }
+
+    .Invest-in-hotels-restaurant .btn {
+
+        padding: 10PX 10PX;
+        margin: 20px auto;
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+
+    /* home page invest in hotels and restaurant part end from here */
+
+
+    /* Free hospitality part start here */
+    .free-hospitality-education h1 {
+        font-size: 45px;
+
+    }
+
+    /* Free hospitality part end here */
+
+    /* Third slider start */
+
+    /* Recent insight block start */
+    .recent-insight-blogs {
+        margin-top: 20px;
+    }
+
+    .recent-insight-blogs h1 {
+        font-size: 35px;
+        margin-top: -50px;
+
+    }
+
+    .recent-insight-blogs .description-part h1 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    .recent-insight-blogs .description-part p {
+        font-size: 20px;
+        font-weight: 400;
+        color: #fff;
+        margin-left: 50px;
+        margin-top: 20px;
+
+    }
+
+    .gray h1 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    .recent-insight-blogs a {
+        font-size: 15px;
+
+    }
+
+    /* Recent-insight-blogs end here */
+
+    /* Hellow world part start from here */
+
+
+    /* hellow world part end from here */
+
+    /* Education and consultancy part start here */
+
+
+    /* Education and consultancy part end here */
+
+    /* company overview video part start */
+    .company-overview-video {
+        min-height: 50vh;
+    }
+
+    .company-overview-video a {
+
+        left: 45%;
+        top: 47%;
+        transform: translate(-40% -47%);
+        font-size: 25px;
+    }
+
+    /* employment opportunity part start here */
+
+    .employment-opportunity {
+        margin-top: -70px;
+    }
+
+
+    .employment-opportunity .left-part p {
+        margin-bottom: -10px;
+    }
+
+    .employment-opportunity .right-part h1 {
+
+        margin-top: 20px;
+    }
+
+    /* employment opportunity part end here */
+
+    /* What people says part start here */
+
+    .what-people-says {
+        height: 100vh;
+        margin-top: -80px;
+    }
+
+    .what-people-says .left-part h5 {
+        margin-top: 15px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .what-people-says .left-part h1 {
+        margin-left: 0px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .what-people-says .left-part p {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .what-people-says .left-part .btn {
+        text-align: center;
+        margin-left: 35%;
+
+    }
+
+    .what-people-says .right-part img {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    /* What people says part end here */
+
+    /* Real Estate Part Start from here */
+    .real-estate {
+        margin-top: 220px;
+    }
+
+    .real-estate h1 {
+        font-size: 34px;
+        font-weight: 700;
+    }
+
+    .real-estate-images img {
+        width: 100%;
+
+    }
+
+    /* Real Estate Part End from here */
+
+    /* Our supply part start from here */
+    .our-supply h1 {
+        font-size: 34px;
+        padding: 50px 0 10px 0;
+        text-align: center;
+    }
+
+    .our-supply h5 {
+        text-align: center;
+    }
+
+    .our-supply p {
+        text-align: center;
+        padding: 0 0 20px 0;
+    }
+
+    .our-supply .hotel-des {
+        text-align: center;
+    }
+
+
+    .description-row .icon {
+        text-align: center;
+        margin-top: -100px;
+        margin-bottom: -100px;
+    }
+
+    .our-supply img {
+        margin: 10px 0 0 0;
+    }
+
+
+    /* Our supply part end from here */
+    /* Travel and Tourism part start from here */
+    .travel-and-tourism h1 {
+        font-size: 34px;
+
+    }
+
+    .travel-and-tourism p {
+        text-align: center;
+    }
+
+    .travel-and-tourism button {
+        position: absolute;
+        top: 90%;
+        left: 75%;
+        transform: translate(-90%, -75%);
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
+
+    /* Travel and Tourism part end from here */
+
+    /* Our Partners part start from here */
+    .our-partners {
+        background-size: 60vh;
+    }
+
+    .our-partners h1 {
+
+        font-size: 34px;
+        padding-top: 20px;
+
+    }
+
+    .our-partners-logo {
+        padding: 50px 10px;
+        gap: 50px;
+    }
+
+    .our-partners img {}
+
+    /* Our Partners part end from here */
+    /* payment-getway part start from here */
+    .payment-getway img {
+        width: 250px;
+        text-align: center;
+
+    }
+
+
+
+    /* footer part start here */
+
+    /* footer part start*/
+
+    .footer-part {
+        background-color: #000000;
+        height: 683px;
+        margin-top: 50px;
+    }
+
+    .footer-part p {
+        /* margin-left: 70px; */
+        color: #fff;
+    }
+
+    .footer-part img {
+        margin-left: 0px;
+    }
+
+    .input-group {
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .footer-btn {
+        background-color: #0080C7;
+        color: #fff;
+    }
+
+    .footer-icon {
+        margin-left: 0px;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .footer-icon ul li {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        float: left;
+        border: 1px solid #ffff;
+        background-color: #ffff;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        align-items: center;
+        margin-left: 15px;
+
+    }
+
+    .footer-credit-line {
+        font-size: 10px;
+        background-color: #eaeaea;
+        padding: 10px;
+
+    }
+
+
+
+    /* HOME PAGE END FROM HERE */
+
+
+
+
+    /* ABOUT US PAGE START FROM HERE */
+
+    /* ABOUT US hero-Section */
+
+    .aboutus-page-hero-section h1 {
+
+        font-size: 50px;
+
+    }
+
+    .aboutus-page-hero-section h2 {
+
+        font-size: 24px;
+    }
+
+    .aboutus-page-hero-section p {
+        font-size: 15px;
+        margin-top: -100px;
+    }
+
+    .aboutus-hero-background-image img {
+
+        min-height: 20vh;
+        margin-top: -20px;
+    }
+
+    /* about us hero section end here */
+
+    /* about us why we are seciton start from here */
+    .aboutus-page-why-are-strong h1 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .aboutus-page-why-are-strong h5 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .aboutus-page-why-are-strong p {
+        font-size: 12px;
+    }
+
+    /* about us why we are seciton end from here */
+
+    /* about us sajib-paul-ceo section start here  */
+    .Managing-partner img {
+        width: 100%;
+    }
+
+    .Managing-partner h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .Managing-partner h4 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .Managing-partner-rightpart-para h2 {
+        text-align: center;
+        font-size: 25px;
+
+    }
+
+    /* about us sajib ceo part end here */
+
+
+    /* about us our story part start here */
+
+    .aboutus-our-story img {
+        margin-top: -50px;
+    }
+
+    .aboutus-our-story-description h1 {
+        text-align: center;
+        font-size: 24px;
+
+    }
+
+    .aboutus-our-story-description p {
+        font-size: 15px;
+        margin-bottom: -100px;
+    }
+
+    /* about us our story part end here */
+
+    /* about us our mission part start here */
+    .aboutus-our-mission-description h1 {
+        font-size: 24px;
+
+
+    }
+
+    .aboutus-our-mission-description p {
+        font-size: 15px;
+        margin-top: -50px;
+    }
+
+    /* about us our mission part end here */
+    /* about us our vision part start here */
+    .aboutus-our-vision img {
+        margin-left: 0px;
+        width: 100%;
+
+    }
+
+    .aboutus-our-vision-description h1 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .aboutus-our-vision-description p {
+        font-size: 15px;
+    }
+
+    /* about us our vision part end here */
+
+    /* about us rising part start here */
+    .aboutus-rising-collum p {
+        font-size: 15px;
+        text-align: center;
+
+    }
+
+    .aboutus-rising-collum h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    /* about us rising part end here */
+
+
+    /* ABOUT US MEET OUR STRONG TEAM START FROM HEHE */
+
+    /* about us meet our team start from here */
+
+    .about-us-meet-our-team {}
+
+    .aboutus-meet-our-team-heading h1 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .aboutus-meet-our-team-description p {}
+
+    .aboutus-meet-our-team-members img {}
+
+    .aboutus-meet-our-team-members h4 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .aboutus-meet-our-team-members h6 {
+        text-align: center;
+    }
+
+
+
+    /* ABOUT US SUB MENU MEET OUR STRONG TEAM STRAT FROM HERE */
+    /* about us sub menu meet our strong team start from here */
+    .aboutus-submenu-meet-our-strong-team-hero-section h1 {
+        font-size: 50px;
+        margin-top: 20px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-hero-section h2 {
+        font-size: 30px;
+        margin-bottom: -70px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-hero-section p {}
+
+    .aboutus-submenu-meet-our-strong-team-details h1 {
+        font-size: 24px;
+        margin-bottom: -120px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-details p {
+        margin-top: 100px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-members h4 {
+        font-size: 24px;
+
+    }
+
+    .aboutus-submenu-meet-our-strong-team-members h6 {
+        color: #868686;
+        font-size: 15px;
+
+    }
+
+    .tasnim-jahan {
+        margin-top: -100px;
+
+    }
+
+    .mehejabin-khan {
+        margin-top: -100px;
+    }
+
+    .payel-das {
+        margin-top: -100px;
+    }
+
+    /* about us sub menu meet our strong team end from here */
+    /* ABOUT US SUB MENU MEET OUR STRON TEAM END FROM HERE */
+
+
+    /* ABOUT US PAGE END FROM HERE */
+
+    /* MANAGEMENT/CONSULTANCY PAGE START FROM HERE */
+    /* consultancy and managemnt-Hero Section start here */
+    .consultancy-and-Management-hero-section h1 {
+        font-size: 40px;
+    }
+
+    .consultancy-and-Management-hero-section h2 {
+        font-size: 24px;
+    }
+
+    .consultancy-and-Management-hero-section p {
+        font-size: 15px;
+        margin-top: -80px;
+    }
+
+    .consultancy-and-Management-hero-section-hero-image {
+        min-height: 30vh;
+        margin-top: -50px;
+    }
+
+    /* Management/consultancy-Hero Section end here */
+
+
+    /* Mangement/consultancy In Details part start from here */
+    .consultancy-and-management-details h1 {
+        font-size: 34px;
+    }
+
+    .consultancy-and-management-details h4 {
+        font-size: 15px;
+        margin-top: -20px;
+    }
+
+    .consultancy-and-management-details p {
+        color: #000000;
+        font-size: 10px;
+    }
+
+    .consultancy-hotel-resort .left-part h1 {
+        text-align: center;
+    }
+
+    .consultancy-hotel-resort .left-part p {
+        text-align: center;
+    }
+
+    .consultancy-hotel-resort .left-part h6 {
+        text-align: start;
+    }
+
+    .consultancy-restaurant .right-part h1 {}
+
+    .consultancy-restaurant .right-part p {}
+
+    .consultancy-restaurant.right-part h6 {}
+
+    .consultancy-welness-concept-spa .left-part h1 {
+
+        text-align: center;
+    }
+
+    .consultancy-welness-concept-spa .left-part p {
+        text-align: center;
+    }
+
+    .consultancy-welness-concept-spa .left-part h6 {
+        text-align: start;
+    }
+
+    .consultancy-franchise-management .right-part h1 {}
+
+    .consultancy-franchise-management .right-part p {}
+
+    .consultancy-franchise-management .right-part h6 {}
+
+
+    .consultancy-hrm .left-part h1 {
+        text-align: center;
+
+    }
+
+    .consultancy-hrm .left-part p {
+        text-align: center;
+
+    }
+
+    .consultancy-education-consultancy .right-part h1 {}
+
+    .consultancy-education-consultancy .right-part p {
+        text-align: start;
+    }
+
+    .consultancy-education-consultancy .right-part h6 {}
+
+    .consultancy-visaImigration .left-part h1 {
+        margin-top: -60px;
+        text-align: center;
+    }
+
+    .consultancy-visaImigration .left-part p {
+        text-align: center;
+    }
+
+    .consultancy-visaImigration .left-part h6 {
+        text-align: start;
+
+
+    }
+
+    /* Management/consultancy In Details part end from here */
+
+
+
+    /* Mangement/consultancy MD part start from here */
+
+    .consultancy-md-part {
+
+        /* width: 100%; */
+        height: 150vh;
+    }
+
+    .consultancy-md-part img {
+        margin-top: 0px;
+
+    }
+
+
+    .consultancy-md-part h4 {
+
+        margin-top: 0px;
+
+    }
+
+
+    .consultancy-md-part h6 {
+        color: #e4e4e4;
+
+    }
+
+    .consultancy-md-part .paragraph {
+        text-align: start;
+        color: #E8E8E8;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+
+    .consultancy-md-part span {}
+
+
+
+    /* Mangement/consultancy MD part end from here */
+
+    /* consultancy and Management page end here */
+
+    /* Managememt/Consultancy Sub Menu Hotel and Resort Page start from Here */
+    /* hero section start from here */
+    .consultancy-and-Management-hotelandResort-hero-section h1 {
+
+        font-size: 50px;
+
+    }
+
+    .consultancy-and-Management-hotelandResort-hero-section h2 {
+        font-size: 24px;
+
+    }
+
+    .consultancy-and-Management-hotelandResort-hero-section-hero-image img {}
+
+    /* hero section end from here */
+
+
+
+    /* Managememt/Consultancy Sub Menu HOTEL and RESORT details part start from Here */
+    /* hotel resort start */
+
+    .consultancy-and-management-hotelAndResor-details h1 {
+        font-size: 34px;
+    }
+
+    /* Managememt/Consultancy Sub Menu Hotel and Resort details part end from Here */
+
+
+    /* MANAGEMENT/CONSULTANCY MENU PAGE END HERE */
+
+
+}
+
+
+@media (min-width:0px) and (max-width: 320px) {
+
+    /* HOME PAGE START FROM HERE */
+    /* hero slider start */
+
+    .master-slider h1,
+    h2,
+    h5 {
+        padding: 0px 0;
+    }
+
+    .master-slider h5 {
+        margin-right: 100px;
+        font-size: 15px;
+
+
+    }
+
+    .master-slider h1 {
+        margin-right: 100px;
+        font-size: 20px;
+
+
+    }
+
+    .master-slider h2 {
+        margin-right: 100px;
+        font-size: 18px;
+
+
+    }
+
+    .master-slider .btn {
+        font-size: 10px;
+
+    }
+
+    .buttons {
+        width: 65%;
+    }
+
+    .buttons button {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .hero-slider {
+        position: absolute;
+        left: 50%;
+        top: 1.3%;
+        transform: translate(-50%, -1.3%);
+        width: 100%;
+        height: 350px;
+        padding: 50px;
+
+    }
+
+    .item {
+        width: 50px;
+        height: 80px;
+
+
+    }
+
+    .item:nth-child(3) {
+        left: 50%;
+
+    }
+
+    .item:nth-child(3) {
+        left: calc(50% + 90px);
+    }
+
+    .item:nth-child(4) {
+        left: calc(50% + 150px);
+    }
+
+    .item:nth-child(5) {
+        left: calc(50% + 210px);
+    }
+
+    .item:nth-child(n+6) {
+        left: calc(50% + 310px);
+        opacity: 0;
+    }
+
+    /* first slider end */
+
+    /* hotel-and-hospitality part start from here */
+
+    /* second slider start */
+
+    .card-img-top {
+        height: 472px;
+
+    }
+
+    .card {
+
+        height: 472px;
+
+    }
+
+    /* hotel-and-hospitality */
+
+    .hotel-and-hospitality-right-row-management {
+        margin-top: -100px;
+    }
+
+    .hotel-and-hospitality h1 {
+        font-size: 50px;
+        align-items: center;
+
+    }
+
+    .hotel-and-hospitality-right-row-management .description h1 {
+        color: #ffff;
+        padding-top: 30px;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        margin-left: 120px;
+        margin-top: -200px;
+    }
+
+    .hotel-and-hospitality-right-row-management .description p {
+        color: #fff;
+        padding-bottom: 10px;
+        font-size: 15px;
+        font-weight: 400;
+        margin-left: 165px;
+        margin-right: 20px;
+    }
+
+    .hotel-and-hospitality-right-row-planning-food-time {
+        background-color: #eaeaea;
+    }
+
+    .hotel-and-hospitality-right-row-planning-food-time h1 {
+        color: #0080C7;
+        padding-top: 30px;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        margin-left: 120px;
+        margin-top: -200px;
+    }
+
+    .hotel-and-hospitality-right-row-planning-food-time p {
+        color: rgb(31, 30, 30);
+        padding-bottom: 10px;
+        font-size: 15px;
+        font-weight: 400;
+
+    }
+
+
+
+    .hotel-and-hospitality-right-col p {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 165px;
+        margin-right: 20px;
+    }
+
+    .hotel-and-hospitality-right-col .icon {
+        margin-left: 70px;
+        margin-top: -150px;
+    }
+
+    /* home page about us start */
+    .about-us h1 {
+        font-size: 45px;
+    }
+
+    .our-story h1 {
+        font-size: 45px;
+        margin-top: 0px;
+    }
+
+    .our-mission-vision img {
+        margin-top: 20px;
+    }
+
+    /* home page about us end */
+
+    /* home page invest in hotels and restaurant part start from here */
+    .Invest-in-hotels-restaurant {
+        padding: 10px;
+    }
+
+    .Invest-in-hotels-restaurant h1 {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    .Invest-in-hotels-restaurant p {
+        font-size: 15px;
+    }
+
+    .Invest-in-hotels-restaurant .btn {
+
+        padding: 10PX 10PX;
+        margin: 20px auto;
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+
+    /* home page invest in hotels and restaurant part end from here */
+    /* Free hospitality part start here */
+    .free-hospitality-education h1 {
+        font-size: 45px;
+
+    }
+
+    /* Free hospitality part end here */
+
+    /* Third slider start */
+
+    /* Recent insight block start */
+    .recent-insight-blogs {
+        margin-top: 20px;
+    }
+
+    .recent-insight-blogs h1 {
+        font-size: 35px;
+        margin-top: -50px;
+
+    }
+
+    .recent-insight-blogs .description-part h1 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    .recent-insight-blogs .description-part p {
+        font-size: 20px;
+        font-weight: 400;
+        color: #fff;
+        margin-left: 50px;
+        margin-top: 20px;
+
+    }
+
+    .gray h1 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    .recent-insight-blogs a {
+        font-size: 15px;
+
+    }
+
+    /* Recent-insight-blogs end here */
+
+    /* Hellow world part start from here */
+
+
+    /* hellow world part end from here */
+
+    /* Education and consultancy part start here */
+
+
+    /* Education and consultancy part end here */
+
+    /* company overview video part start */
+    .company-overview-video {
+        min-height: 50vh;
+    }
+
+    .company-overview-video a {
+
+        left: 45%;
+        top: 47%;
+        transform: translate(-40% -47%);
+        font-size: 25px;
+    }
+
+    /* employment opportunity part start here */
+
+    .employment-opportunity {
+        margin-top: -70px;
+    }
+
+
+    .employment-opportunity .left-part p {
+        margin-bottom: -10px;
+    }
+
+    .employment-opportunity .right-part h1 {
+
+        margin-top: 20px;
+    }
+
+    /* employment opportunity part end here */
+
+    /* What people says part start here */
+
+    .what-people-says {
+        height: 100vh;
+        margin-top: -80px;
+    }
+
+    .what-people-says .left-part h5 {
+        margin-top: 15px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .what-people-says .left-part h1 {
+        margin-left: 0px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .what-people-says .left-part p {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .what-people-says .left-part .btn {
+        text-align: center;
+        margin-left: 35%;
+
+    }
+
+    .what-people-says .right-part img {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    /* What people says part end here */
+
+    /* Real Estate Part Start from here */
+    .real-estate {
+        margin-top: 150px;
+    }
+
+    .real-estate h1 {
+        font-size: 34px;
+        font-weight: 700;
+    }
+
+    .real-estate-images img {
+        width: 100%;
+
+    }
+
+    /* Real Estate Part End from here */
+
+
+
+    /* Our supply part start from here */
+    .our-supply h1 {
+        font-size: 34px;
+        padding: 50px 0 10px 0;
+        text-align: center;
+    }
+
+    .our-supply h5 {
+        text-align: center;
+    }
+
+    .our-supply p {
+        text-align: center;
+        padding: 0 0 20px 0;
+    }
+
+    .our-supply .hotel-des {
+        text-align: center;
+    }
+
+
+    .description-row .icon {
+        text-align: center;
+        margin-top: -100px;
+        margin-bottom: -100px;
+    }
+
+    .our-supply img {
+        margin: 10px 0 0 0;
+    }
+
+
+    /* Our supply part end from here */
+
+    /* Travel and Tourism part start from here */
+    .travel-and-tourism h1 {
+        font-size: 34px;
+
+    }
+
+    .travel-and-tourism p {
+        text-align: center;
+    }
+
+    .travel-and-tourism button {
+        position: absolute;
+        top: 90%;
+        left: 75%;
+        transform: translate(-90%, -75%);
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
+
+    /* Travel and Tourism part end from here */
+
+    /* Our Partners part start from here */
+    .our-partners {
+        background-size: 60vh;
+    }
+
+    .our-partners h1 {
+
+        font-size: 34px;
+        padding-top: 20px;
+
+    }
+
+    .our-partners-logo {
+        padding: 50px 10px;
+        gap: 50px;
+    }
+
+    .our-partners img {}
+
+    /* Our Partners part end from here */
+    /* payment-getway part start from here */
+    .payment-getway img {
+        width: 250px;
+        text-align: center;
+
+    }
+
+
+
+    /* footer part start here */
+
+    /* footer part start*/
+
+    .footer-part {
+        background-color: #000000;
+        height: 683px;
+        margin-top: 50px;
+    }
+
+    .footer-part p {
+        /* margin-left: 70px; */
+        color: #fff;
+    }
+
+    .footer-part img {
+        margin-left: 0px;
+    }
+
+    .input-group {
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .footer-btn {
+        background-color: #0080C7;
+        color: #fff;
+    }
+
+    .footer-icon {
+        margin-left: 0px;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .footer-icon ul li {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        float: left;
+        border: 1px solid #ffff;
+        background-color: #ffff;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        align-items: center;
+        margin-left: 15px;
+
+    }
+
+    .footer-credit-line {
+        font-size: 10px;
+        background-color: #eaeaea;
+        padding: 10px;
+
+    }
+
+
+
+    /* HOME PAGE footer part end here */
+
+
+    /* HOME PAGE END HERE */
+
+
+    /* ABOUT US PAGE START FROM HERE */
+
+    /* ABOUT US hero-Section */
+
+    .aboutus-page-hero-section h1 {
+
+        font-size: 50px;
+
+    }
+
+    .aboutus-page-hero-section h2 {
+
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .aboutus-page-hero-section p {
+        font-size: 15px;
+        margin-top: -100px;
+        text-align: center;
+    }
+
+    .aboutus-hero-background-image {
+
+        min-height: 20vh;
+        margin-top: -20px;
+    }
+
+    /* about us hero section end here */
+
+    /* about us why we are seciton start from here */
+    .aboutus-page-why-are-strong h1 {
+        font-size: 24px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .aboutus-page-why-are-strong h5 {
+        font-size: 15px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .aboutus-page-why-are-strong p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    /* about us why we are seciton end from here */
+
+    /* about us sajib-paul-ceo section start here  */
+    .Managing-partner img {
+        width: 100%;
+    }
+
+    .Managing-partner h1 {
+        color: #0080C7;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .Managing-partner h4 {
+
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .Managing-partner-rightpart-para h2 {
+        color: #0080C7;
+        font-size: 25px;
+        text-align: center;
+
+    }
+
+    /* about us sajib ceo part end here */
+
+    /* about us our story part start here */
+
+    .aboutus-our-story-image img {
+        margin-top: -100px;
+        width: 50%;
+    }
+
+    .aboutus-our-story-description h1 {
+        text-align: center;
+        font-size: 24px;
+        padding: 10px;
+
+    }
+
+    .aboutus-our-story-description p {
+        font-size: 15px;
+        margin-bottom: -100px;
+        text-align: center;
+    }
+
+    /* about us our story part end here */
+
+    /* about us our mission part start here */
+    .aboutus-our-mission-description h1 {
+        font-size: 24px;
+        text-align: center;
+
+
+    }
+
+    .aboutus-our-mission-description p {
+        font-size: 15px;
+        margin-top: -50px;
+        text-align: center;
+    }
+
+    /* about us our mission part end here */
+    /* about us our vision part start here */
+    .aboutus-our-vision img {
+        margin-left: 0px;
+        width: 100%;
+
+    }
+
+    .aboutus-our-vision-description h1 {
+        font-size: 24px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .aboutus-our-vision-description p {
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: -100px;
+    }
+
+    /* about us our vision part end here */
+
+    /* about us rising part start here */
+    .aboutus-rising-collum p {
+        font-size: 15px;
+        text-align: center;
+
+    }
+
+    .aboutus-rising-collum h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    /* about us rising part end here */
+
+    /* about us meet our team start from here */
+
+    .about-us-meet-our-team {}
+
+    .aboutus-meet-our-team-heading h1 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .aboutus-meet-our-team-description p {}
+
+    .aboutus-meet-our-team-members img {}
+
+    .aboutus-meet-our-team-members h4 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .aboutus-meet-our-team-members h6 {
+        text-align: center;
+    }
+
+
+    /* ABOUT US SUB MENU MEET OUR STRONG TEAM STRAT FROM HERE */
+    /* about us sub menu meet our strong team start from here */
+    .aboutus-submenu-meet-our-strong-team-hero-section h1 {
+        font-size: 50px;
+        margin-top: 20px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-hero-section h2 {
+        font-size: 30px;
+        margin-bottom: -70px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-hero-section p {}
+
+    .aboutus-submenu-meet-our-strong-team-details h1 {
+        font-size: 24px;
+        margin-bottom: -120px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-details p {
+        margin-top: 100px;
+    }
+
+    .aboutus-submenu-meet-our-strong-team-members h4 {
+        font-size: 24px;
+
+    }
+
+    .aboutus-submenu-meet-our-strong-team-members h6 {
+        color: #868686;
+        font-size: 15px;
+
+    }
+
+    .tasnim-jahan {
+        margin-top: -100px;
+
+    }
+
+    .mehejabin-khan {
+        margin-top: -100px;
+    }
+
+    .payel-das {
+        margin-top: -100px;
+    }
+
+    /* about us sub menu meet our strong team end from here */
+    /* ABOUT US SUB MENU MEET OUR STRON TEAM END FROM HERE */
+
+
+    /* ABOUT US PAGE END FROM HERE */
+
+
+
+
+
+
+    /* MANAGEMENT/CONSULTANCY PAGE START FROM HERE */
+    /* consultancy and managemnt-Hero Section start here */
+    .consultancy-and-Management-hero-section h1 {
+        font-size: 40px;
+    }
+
+    .consultancy-and-Management-hero-section h2 {
+        font-size: 24px;
+    }
+
+    .consultancy-and-Management-hero-section p {
+        font-size: 15px;
+        margin-top: -80px;
+    }
+
+    .consultancy-and-Management-hero-section-hero-image {
+        min-height: 30vh;
+        margin-top: -50px;
+    }
+
+    /* Management/consultancy-Hero Section end here */
+
+
+    /* Mangement/consultancy In Details part start from here */
+    .consultancy-and-management-details h1 {
+        font-size: 34px;
+    }
+
+    .consultancy-and-management-details h4 {
+        font-size: 15px;
+        margin-top: -20px;
+    }
+
+    .consultancy-and-management-details p {
+        color: #000000;
+        font-size: 10px;
+    }
+
+    .consultancy-hotel-resort .left-part h1 {
+        text-align: center;
+    }
+
+    .consultancy-hotel-resort .left-part p {
+        text-align: center;
+    }
+
+    .consultancy-hotel-resort .left-part h6 {
+        text-align: start;
+    }
+
+    .consultancy-restaurant .right-part h1 {}
+
+    .consultancy-restaurant .right-part p {}
+
+    .consultancy-restaurant.right-part h6 {}
+
+    .consultancy-welness-concept-spa .left-part h1 {
+
+        text-align: center;
+    }
+
+    .consultancy-welness-concept-spa .left-part p {
+        text-align: center;
+    }
+
+    .consultancy-welness-concept-spa .left-part h6 {
+        text-align: start;
+    }
+
+    .consultancy-franchise-management .right-part h1 {}
+
+    .consultancy-franchise-management .right-part p {}
+
+    .consultancy-franchise-management .right-part h6 {}
+
+
+    .consultancy-hrm .left-part h1 {
+        text-align: center;
+
+    }
+
+    .consultancy-hrm .left-part p {
+        text-align: center;
+
+    }
+
+    .consultancy-education-consultancy .right-part h1 {}
+
+    .consultancy-education-consultancy .right-part p {
+        text-align: start;
+    }
+
+    .consultancy-education-consultancy .right-part h6 {}
+
+    .consultancy-visaImigration .left-part h1 {
+        margin-top: -60px;
+        text-align: center;
+    }
+
+    .consultancy-visaImigration .left-part p {
+        text-align: center;
+    }
+
+    .consultancy-visaImigration .left-part h6 {
+        text-align: start;
+
+
+    }
+
+    /* Management/consultancy In Details part end from here */
+
+
+
+    /* Mangement/consultancy MD part start from here */
+
+    .consultancy-md-part {
+
+        /* width: 100%; */
+        height: 150vh;
+    }
+
+    .consultancy-md-part img {
+        margin-top: 0px;
+
+    }
+
+
+    .consultancy-md-part h4 {
+
+        margin-top: 0px;
+
+    }
+
+
+    .consultancy-md-part h6 {
+        color: #e4e4e4;
+
+    }
+
+    .consultancy-md-part .paragraph {
+        text-align: start;
+        color: #E8E8E8;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+
+    .consultancy-md-part span {}
+
+    /* Mangement/consultancy MD part end from here */
+
+    /* Management/Consultnacy page end here */
+
+
+
+    /* Managememt/Consultancy Sub Menu Hotel and Resort Page start from Here */
+    /* hero section start from here */
+    .consultancy-and-Management-hotelandResort-hero-section h1 {
+
+        font-size: 50px;
+
+    }
+
+    .consultancy-and-Management-hotelandResort-hero-section h2 {
+        font-size: 24px;
+
+    }
+
+    .consultancy-and-Management-hotelandResort-hero-section-hero-image img {}
+
+    /* hero section end from here */
+
+
+
+    /* Managememt/Consultancy Sub Menu HOTEL and RESORT details part start from Here */
+    /* hotel resort start */
+
+    .consultancy-and-management-hotelAndResor-details h1 {
+        font-size: 34px;
+    }
+
+    /* Managememt/Consultancy Sub Menu Hotel and Resort details part end from Here */
+
+    /* MANAGEMENT/CONSULTANCY MENU PAGE END HERE */
+
+
+
+}

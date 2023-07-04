@@ -1,0 +1,2935 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Raleway';
+}
+
+
+/* First navbar start from here */
+.first-navbar .nav-item {}
+
+.first-navbar .nav-item-facebook,
+.nav-item-youtube,
+.nav-item-instagram,
+.nav-item-twiter,
+.nav-item-pinterest,
+.nav-item-linkdin {
+    margin: 5px -75px 5px 70px;
+
+}
+
+.first-nav-brand {
+    font-size: 10px;
+    color: #9FD9FE;
+    font-weight: 700;
+}
+
+/* first navbar end here */
+
+
+/* second navbar start */
+
+.second-navbar {
+    background-color: #E8E8E8;
+    width: 100%;
+}
+
+.second-navbar .nav-item {
+    padding-left: 20px;
+
+}
+
+
+.second-navbar .navbar-toggler {
+    border-color: #d3cdcd;
+
+}
+
+
+.second-navbar .navbar-toggler-icon {
+    background-color: #dad5d5;
+}
+
+/* nav end */
+
+
+
+
+
+/* Hero slider start from here */
+
+.master-slider h1,
+h2,
+h5 {
+    color: #ffffff;
+    font-weight: 700;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+
+.hero-slider {
+    position: absolute;
+    left: 50%;
+    top: 1.3%;
+    transform: translate(-50%, -1.3%);
+    width: 100%;
+    height: 750px;
+    padding: 50px;
+
+}
+
+#slide {
+    width: max-content;
+    margin-top: 50px;
+}
+
+.item {
+    width: 200px;
+    height: 300px;
+    background-position: 50% 50%;
+    display: inline-block;
+    transition: 0.5s;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 20px;
+    box-shadow: 0 30px 50px rgb(90, 89, 89);
+
+}
+
+.item:nth-child(1),
+.item:nth-child(2) {
+    left: 0;
+    top: 0;
+    transform: translate(0, 0);
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    image-resolution: 0;
+
+
+}
+
+.item:nth-child(3) {
+    left: 50%;
+
+}
+
+.item:nth-child(3) {
+    left: calc(50% + 440px);
+}
+
+.item:nth-child(4) {
+    left: calc(50% + 660px);
+}
+
+.item:nth-child(5) {
+    left: calc(50% + 880px);
+}
+
+.item:nth-child(n+6) {
+    left: calc(50% + 880px);
+    opacity: 0;
+
+}
+
+.item .content {
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    width: 300px;
+    text-align: left;
+    padding: 0;
+    color: #eee;
+    transform: translate(0, -50%);
+    display: none;
+    font-family: ;
+}
+
+.item:nth-child(2) .content {
+    display: block;
+    z-index: 11111;
+}
+
+.item .name {
+    font-family: ;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: 0;
+    animation: showcontent 1s ease-in-out 1 forwards
+}
+
+.item .des {
+    margin: 20px 0;
+    opacity: 0;
+    animation: showcontent 1s ease-in-out 0.3s 1 forwards
+}
+
+.item button {
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    opacity: 0;
+    animation: showcontent 1s ease-in-out 0.6s 1 forwards;
+    color: #0080C7;
+    background-color: #ffffff;
+
+}
+
+.item button:hover {
+    background-color: #0080C7;
+    color: #ffffff;
+}
+
+.item a {
+    font-size: 20px;
+    opacity: 0;
+    animation: showcontent 1s ease-in-out 0.6s 1 forwards;
+    color: #0080C7;
+
+}
+
+@keyframes showcontent {
+    from {
+        opacity: 0;
+        transform: translate(0, 100px);
+        filter: blur(33px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+        filter: blur(0);
+    }
+
+}
+
+.buttons {
+    position: absolute;
+    bottom: 30px;
+    z-index: 22222;
+    text-align: center;
+    width: 100%;
+
+}
+
+.buttons button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #555;
+    transition: 0.5s;
+}
+
+.buttons button:hover {
+    background-color: #0080C7;
+}
+
+
+/* Hero slider end from here */
+
+
+
+
+
+/* Hotel and hopitality start here */
+
+
+.hotel-and-hospitality h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #0080C7;
+
+}
+
+
+.icon-style {
+    background-color: white;
+    color: #0080C7;
+    padding: 25px;
+    margin: 40% 0;
+
+
+}
+
+.icon-styles {
+    background-color: #0080C7;
+    color: white;
+    padding: 25px;
+    margin: 40% 0;
+
+}
+
+.hotel-and-hospitality-right-row-management .description h1 {
+    color: #ffff;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hotel-and-hospitality-right-row-management .description p {
+    color: #fff;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.hotel-and-hospitality-right-row-planning-food-time {
+    background-color: #eaeaea;
+}
+
+.hotel-and-hospitality-right-row-planning-food-time.description h1 {
+    color: #0080C7;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hotel-and-hospitality-right-row-planning-food-time p {
+    color: rgb(31, 30, 30);
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
+
+/* second slider start */
+
+
+
+.second-slider-part {
+    margin-left: -150px;
+}
+
+
+.card-img-top {
+    height: 672px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+
+}
+
+.second-slider-part .btn-hrm {
+    color: white;
+    background-color: #0080C7;
+
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.second-slider-part .btn-tt {
+    color: white;
+    background-color: #0080C7;
+
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.owl-prev {
+    left: 20px;
+    top: 50%;
+
+}
+
+#owl-carousel .owl-prev {
+    top: 50%;
+}
+
+.owl-next {
+    right: 20px;
+    top: 50%;
+
+}
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+
+}
+
+.owl-prev span,
+.owl-next span {
+    font-size: 80px;
+    color: #fff;
+}
+
+.owl-theme,
+.owl-nav[class*="owl-"]:hover {
+    background: transparent;
+}
+
+/* .container-fluid{
+    position: relative;
+} */
+.transparent-slider {
+    position: absolute;
+    top: 0px;
+    left: -1px;
+    right: 100px;
+    background-color: transparent;
+
+
+}
+
+
+.card {
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+    height: 672px;
+    margin-top: 200px;
+
+}
+
+
+/* Hotel and hospitality End here */
+
+
+/*Home page About us section start here */
+
+/* about-us */
+.about-us h1,
+.our-story h1,
+.our-mission-vision h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #0080C7;
+    margin-top: 10px;
+
+}
+
+.about-us p,
+.our-story p,
+.our-mission-vision p {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    margin-top: 10px;
+    text-align: left;
+
+
+}
+
+.about-us a,
+.our-story a,
+.our-mission-vision a {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* ourt story */
+
+
+/* our Mission */
+.our-mission-vision h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0080C7;
+    margin-top: 20px;
+}
+
+.our-mission-vision img {
+    margin-top: -150px;
+}
+
+
+
+
+/* About us section end here */
+
+/* Invest in Hotels and Restaurant part start from here */
+.Invest-in-hotels-restaurant {
+    background-color: rgba(0, 106, 182, 0.1);
+    padding: 50px;
+}
+
+.Invest-in-hotels-restaurant h1 {
+    color: #0080C7;
+    font-size: 64px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 700;
+}
+
+.Invest-in-hotels-restaurant p {
+    color: #0080C7;
+    font-size: 34px;
+    text-align: center;
+}
+
+.Invest-in-hotels-restaurant-images {
+    padding: 20px;
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.Invest-in-hotels-restaurant .btn {
+    border: 1px solid #0080C7;
+    border-radius: 5px;
+    background-color: #0080C7;
+    padding: 20PX 30PX;
+    margin: 20px auto;
+    /* position: absolute;
+    left: 50%;
+    transform: translate(-50%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* Invest in Hotels and Restaurant part end from here */
+
+/* Experience the passion part satart here */
+.experience-the-passion {
+    background-image: url('/Images/experienceBg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Free hospitality education part start here */
+.free-hospitality-education h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #0080C7;
+    margin-top: 10px;
+}
+
+.free-hospitality-education p {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    margin-top: 10px;
+}
+
+
+/* Third slider start from here */
+.third-slider {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFEFEF;
+}
+
+.slide-container {
+    max-width: 1120px;
+    width: 100%;
+    background-color: gray;
+    padding: 40px 0;
+
+}
+
+.slide-content {
+    margin: 0 40px;
+    /* background-color: red; */
+    overflow: hidden;
+    border-radius: 25px;
+
+}
+
+.third-card {
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 14px;
+    /* align-items: center; */
+}
+
+/* .card-content h2 {
+    color: black;
+    font-size: 20px;
+}
+
+.card-content h6 {
+    color: #0080C7;
+} */
+
+
+.image-content {
+    position: relative;
+    row-gap: 5px;
+    padding: 25px;
+
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #4070F4;
+    border-radius: 25px 25px 0 25px;
+
+}
+
+.overlay::before,
+.overlay::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #4070F4;
+
+}
+
+.overlay::after {
+    border-radius: 0 25px 0 0;
+    background-color: #fff;
+}
+
+.card-image {
+    position: relative;
+
+}
+
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* border-radius: 50%; */
+    border: 4px solid #4070F4;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.description {
+    font-size: 15px;
+    font-weight: 600;
+    color: #0080C7;
+    padding: 15px 0;
+    /* text-align: center; */
+}
+
+.card-content a {
+    text-decoration: none;
+    color: red;
+}
+
+
+
+.swiper-navBtn {
+    color: #6e93f7;
+    transition: color 0.3 ease;
+}
+
+.swiper-navBtn:hover {
+    color: #265DF2;
+}
+
+
+/* Third slider end from here */
+
+/* Free hospitality part end here */
+
+/* Recent insight and blogs part start here */
+.recent-insight-blogs {
+    margin-top: 100px;
+    background-color: #e4e4e4;
+    min-height: 1113px;
+    padding-top: 80px;
+}
+
+.recent-insight-blogs h1 {
+    font-size: 64px;
+    color: #0080C7;
+    font-weight: 700;
+}
+
+.recent-insight-blogs .date-part {
+    background-color: #0080C7;
+    height: 230px;
+    margin-top: 20px;
+}
+
+.recent-insight-blogs .date-part h3 {
+    font-size: 45px;
+    font-weight: 800;
+    color: #fff;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -80%);
+}
+
+.recent-insight-blogs .description-part {
+    background-color: rgb(58, 58, 58);
+    margin-top: 20px;
+}
+
+.recent-insight-blogs .description-part h1 {
+    font-size: 45px;
+    font-weight: 800;
+    color: #ffff;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.recent-insight-blogs .description-part p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.gray-date-part {
+    background-color: #868686;
+    height: 230px;
+    margin-top: 20px;
+}
+
+.gray h3 {
+    font-size: 45px;
+    font-weight: 800;
+    color: #fff;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -80%);
+}
+
+.gray h1 {
+    font-size: 45px;
+    font-weight: 800;
+    color: #0080C7;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.gray p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #0080C7;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.gray-description {
+    background-color: #fff;
+    margin-top: 20px;
+
+
+}
+
+.recent-insight-blogs a {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Recent insight and blogs part end here */
+
+
+/* Hellow world part start here */
+.hellow-world {
+    background-color: #0080C7;
+    min-height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hellow-world h1 {
+    font-size: 64px;
+    font-weight: 600;
+    color: #ffff;
+
+}
+
+.hellow-world p {
+    color: #ffff;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.hellow-world .btn {
+    border: #fff 1px solid;
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: none;
+    color: #0080C7;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.hellowworld-right-image {
+    width: 70%;
+    height: 70%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* Education and Visa part Start */
+
+.education-visa .left-part {
+    background-color: #0080C7;
+}
+
+
+.education-visa .left-part .btn {
+    border: #fff 1px solid;
+    padding: 20px;
+    background-color: #ffff;
+    /* margin-left: 250px; */
+    font-size: 15px;
+    font-weight: 700;
+    color: #0080C7;
+    margin-bottom: 100px;
+
+
+}
+
+.education-visa .left-part h1 {
+    /* margin-left: 250px; */
+    color: #fff;
+    margin-bottom: 20px;
+    /* font-size: 64px; */
+    font-weight: 600;
+}
+
+.education-visa .left-part h4 {
+
+    color: #fff;
+    margin-bottom: 40px;
+
+    font-weight: 700;
+}
+
+.education-visa .left-part p {
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+/* right part */
+
+.education-visa .right-part {
+    background-color: #D9D9D9;
+}
+
+
+.education-visa .right-part .btn {
+    background-color: #0080C7;
+    border-color: #0080C7;
+    color: #fff;
+    /* margin-left: 50px; */
+    font-size: 15px;
+    font-weight: 700;
+    padding: 20px;
+    /* color: #e4e4e4; */
+    margin-bottom: 100px;
+
+}
+
+.education-visa .right-part h1 {
+    /* margin-left: 50px; */
+    color: #0080C7;
+    margin-bottom: 20px;
+    /* font-size: 64px; */
+    font-weight: 600;
+}
+
+.education-visa .right-part h4 {
+
+    color: #0080C7;
+    margin-bottom: 40px;
+
+    font-weight: 700;
+}
+
+.education-visa .right-part p {
+
+    color: #0080C7;
+
+    font-weight: 600;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+/* Education and Visa end */
+
+
+/* Company overview Video part start */
+.company-overview-video {
+    position: relative;
+    background-image: url('/Images/Company\ OverView\ Video.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.company-overview-video a {
+    position: absolute;
+    left: 48%;
+    top: 48%;
+    transform: translate(-48% -48%);
+    font-size: 50px;
+}
+
+/* Company overview Video part end */
+
+
+
+/* Employment oppotunity part start here*/
+.employment-opportunity .left-part a {
+    text-decoration: none;
+}
+
+.employment-opportunity .left-part p {
+    margin-right: 55px;
+    text-align: left;
+}
+
+.employment-opportunity .right-part h1 {
+
+    color: #0080C7;
+    /* font-size: 64px; */
+    font-weight: 600;
+}
+
+
+/* Employment opportunity part end here*/
+
+/* What people says part start here */
+
+.what-people-says {
+    background-color: #F2F2F2;
+    height: 543px;
+}
+
+.what-people-says .left-part h5 {
+    color: #0080C7;
+    margin-top: 100px;
+    margin-left: 180px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.what-people-says .left-part h1 {
+    margin-left: 180px;
+    font-size: 64px;
+    font-weight: 700;
+    color: #0080C7;
+}
+
+.what-people-says .left-part p {
+    margin-left: 180px;
+    text-align: left;
+}
+
+.what-people-says .left-part .btn {
+    background-color: #0080C7;
+    border-color: #0080C7;
+    color: #fff;
+    margin-left: 180px;
+}
+
+.what-people-says .right-part img {
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+/* What people says part end here */
+
+/* Real State Part start from here */
+.real-estate {
+    padding: 50px 0 50px 0;
+}
+
+.real-estate h1,
+p {
+    text-align: center;
+    color: #0080C7;
+    font-weight: 700;
+
+}
+
+.real-estate h1 {
+    font-size: 64px;
+}
+
+
+.real-estate-images {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 10px 5px;
+
+
+}
+
+.real-estate-images img {
+    border-radius: 5px;
+}
+
+.real-estate-images figure {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    /* border: .05px solid #0080C7; */
+    background-color: #0080C7;
+    padding-bottom: 20px;
+}
+
+.real-estate figcaption {
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Real State Part end from here */
+
+/* Our supply part start from here */
+
+
+.our-supply {
+    background-image: url("/Images/ourSupply/backgroundImage.png");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.our-supply h1 {
+    color: #0080C7;
+    font-size: 64px;
+    font-weight: 700;
+    padding: 120px 0 10px 0;
+}
+
+.our-supply h5 {
+    color: #0080C7;
+}
+
+.our-supply p {
+    text-align: left;
+    color: #0080C7;
+    padding: 0 0 20px 0;
+}
+
+.our-supply .hotel-des {
+    text-align: left;
+    color: gray;
+}
+
+.our-supply .des-row {
+    padding: 50px 0 0 0;
+}
+
+.our-supply img {
+    margin: 300px 0 0 0;
+}
+
+
+/* Our supply part end from here */
+
+/* Travel and Tourism part start from here */
+
+.travel-and-tourism {
+    padding: 50px;
+}
+
+.travel-and-tourism img {
+    padding: 5px;
+
+
+}
+
+.travel-and-tourism h1 {
+    padding-top: 50px;
+    color: #0080C7;
+    font-size: 64px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.travel-and-tourism p {
+    color: #0080C7;
+    text-align: left;
+}
+
+.travel-and-tourism button {
+    position: absolute;
+    top: 90%;
+    left: 75%;
+    transform: translate(-90%, -75%);
+    background-color: #0080C7;
+    border-radius: 5px;
+    border: 1px solid #0080C7;
+    padding: 10px;
+    color: #ffffff;
+}
+
+/* Travel and Tourism part end from here */
+
+/* Our partners part start from here */
+.our-partners {
+    background-color: #D9D9D9;
+    background-size: 60vh;
+}
+
+.our-partners h1 {
+    color: #0080C7;
+    font-size: 65px;
+    font-weight: 700;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.our-partners-logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 1400px; */
+    padding: 50px 10px;
+    margin: 0 auto;
+    gap: 100px;
+}
+
+.our-partners img {}
+
+/* Our partners part end from here */
+/* Payment getway part start from here */
+.payment-getway {
+    padding: 50px;
+}
+
+/* Payment getway part end from here */
+
+
+
+/* footer part start*/
+
+.footer-part {
+    background-color: #000000;
+    height: 483px;
+}
+
+.footer-part p {
+    /* margin-left: 70px; */
+    color: #fff;
+}
+
+.footer-part a {
+    text-decoration: none;
+}
+
+.footer-part img {
+    margin-left: -65px;
+}
+
+.input-group {
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.footer-btn {
+    background-color: #0080C7;
+    color: #fff;
+}
+
+.footer-icon {
+    margin-left: 300px;
+    margin-top: 200px;
+}
+
+.footer-icon ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    float: left;
+    border: 1px solid #ffff;
+    background-color: #ffff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 15px;
+
+}
+
+/* home page footer end here */
+
+/* HOME PAGE END HERE  */
+/* HOME PAGE END HERE  */
+/* HOME PAGE END HERE  */
+/* HOME PAGE END HERE  */
+
+
+
+/* ABOUT US PAGE START FROM HERE */
+
+/* hero-Section */
+
+.aboutus-page-hero-section h1 {
+    font-size: 80px;
+    font-weight: 900;
+    color: #E8E8E8;
+}
+
+.aboutus-page-hero-section h2 {
+    color: #006AB6;
+    font-size: 34px;
+    font-weight: 700;
+    margin-left: 0px;
+}
+
+.aboutus-page-hero-section p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: -80px;
+}
+
+.aboutus-hero-background-image {
+
+    min-height: 50vh;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* about us hero section end here */
+
+/* about us why we are seciton start from here */
+.aboutus-page-why-are-strong h1 {
+    color: #006AB6;
+    font-size: 90px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.aboutus-page-why-are-strong h5 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #68696A;
+    margin-top: 100px;
+}
+
+.aboutus-page-why-are-strong p {
+    color: #0080C7;
+    text-align: left;
+}
+
+/* about us why we are seciton end from here */
+
+/* about us sajib-paul-ceo section start here  */
+.Managing-Partner-CEO-border {
+
+    background-color: #e4e4e4;
+
+}
+
+.Managing-Partner-CEO-border img {
+    width: 100%;
+
+}
+
+.Managing-partner h1 {
+    color: #0080C7;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Managing-partner h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #68696A;
+    text-align: center;
+
+}
+
+.Managing-partner-rightpart-para h2 {
+    color: #0080C7;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+/* about us sajib ceo part end here */
+
+/* about us our story part start here */
+
+.aboutus-our-story img {
+    width: 100%;
+}
+
+.aboutus-our-story-description h1 {
+    color: #0080C7;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.aboutus-our-story-description p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #68696A;
+    text-align: left;
+}
+
+/* about us our story part end here */
+
+/* about us our mission part start here */
+
+.aboutus-our-mission-description h1 {
+    color: #0080C7;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.aboutus-our-mission-description p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #68696A;
+    text-align: left;
+}
+
+.aboutus-our-mission-image img {
+    margin-left: 0px;
+}
+
+/* about us our mission part end here */
+/* about us our vision part start here */
+.aboutus-our-vision img {
+    margin-left: 0px;
+    width: 100%;
+}
+
+.aboutus-our-vision-description h1 {
+    color: #0080C7;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 200px;
+}
+
+.aboutus-our-vision-description p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #68696A;
+    text-align: left;
+}
+
+/* about us our vision part end here */
+
+/* about us rising part start here */
+.aboutus-rising-collum p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 50px;
+}
+
+.aboutus-rising-collum h1 {
+    font-size: 120px;
+    font-weight: 600;
+    color: #0080C7;
+}
+
+/* about us rising part end here */
+
+
+/* ABOUT US MEET OUR TEAM START FROM HERE */
+
+/* about us meet our team start from here */
+
+.about-us-meet-our-team {
+    background-color: #D9D9D9;
+    min-height: 1543px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.aboutus-meet-our-team-heading h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #0080C7;
+    margin-top: 100px;
+}
+
+.aboutus-meet-our-team-description p {
+    margin-left: -150px;
+    margin-top: 150px;
+}
+
+
+.aboutus-meet-our-team-members img {}
+
+.aboutus-meet-our-team-members h4 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #58595B;
+    margin-top: 20px;
+}
+
+.aboutus-meet-our-team-members h6 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #58595B;
+}
+
+/* ABOUT US SUB MENU MEET OUR STRONG TEAM STRAT FROM HERE */
+/* about us sub menu meet our strong team start from here */
+.aboutus-submenu-meet-our-strong-team-hero-section h1 {
+    font-size: 150px;
+    font-weight: 900;
+    color: #D9D9D9;
+}
+
+.aboutus-submenu-meet-our-strong-team-hero-section h2 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #0080C7;
+}
+
+.aboutus-submenu-meet-our-strong-team-details h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #0080C7;
+}
+
+.aboutus-submenu-meet-our-strong-team-details p {
+    margin-top: 100px;
+}
+
+.aboutus-submenu-meet-our-strong-team-members h4 {
+    color: #0080C7;
+    font-size: 35px;
+
+}
+
+.aboutus-submenu-meet-our-strong-team-members h6 {
+    color: #868686;
+    font-size: 24px;
+
+}
+
+/* about us sub menu meet our strong team end from here */
+/* ABOUT US SUB MENU MEET OUR STRON TEAM END FROM HERE */
+
+/* ABOUT US PAGE END FROM HERE */
+
+
+
+
+
+/* MANAGEMENT/CONSULTANCY PAGE START FROM HERE */
+/* consultancy and managemnt-Hero Section start here */
+.consultancy-and-Management-hero-section h1 {
+    font-size: 80px;
+    font-weight: 900;
+    color: #E8E8E8;
+}
+
+.consultancy-and-Management-hero-section h2 {
+    color: #006AB6;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: start;
+}
+
+.consultancy-and-Management-hero-section p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.consultancy-and-Management-hero-section-hero-image {
+    background-image: url('/Images/services/consultancyAndManagement/consultancyAndManagement/HeroImage.png');
+    min-height: 100vh;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Management/consultancy-Hero Section end here */
+
+
+/* Mangement/consultancy In Details part start from here */
+.consultancy-and-management-details h1 {
+    color: #0080C7;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.consultancy-and-management-details h4 {
+    color: #0080C7;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.consultancy-and-management-details p {
+    color: #000000;
+    font-size: 15px;
+}
+
+.consultancy-hotel-resort .left-part h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0080C7;
+    text-align: end;
+}
+
+.consultancy-hotel-resort .left-part p {
+    text-align: end;
+}
+
+.consultancy-hotel-resort .left-part h6 {
+    text-align: end;
+    color: #0080C7;
+
+}
+
+.consultancy-restaurant .right-part h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0080C7;
+    text-align: start;
+}
+
+.consultancy-restaurant .right-part p {
+    text-align: start;
+}
+
+.consultancy-restaurant.right-part h6 {
+    text-align: end;
+    color: #0080C7;
+    text-align: start;
+}
+
+.consultancy-welness-concept-spa .left-part h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0080C7;
+    text-align: end;
+}
+
+.consultancy-welness-concept-spa .left-part p {
+    text-align: end;
+}
+
+.consultancy-welness-concept-spa .left-part h6 {
+    text-align: end;
+    color: #0080C7;
+
+}
+
+.consultancy-franchise-management .right-part h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0080C7;
+    text-align: start;
+}
+
+.consultancy-franchise-management .right-part p {
+    text-align: start;
+}
+
+.consultancy-franchise-management .right-part h6 {
+    text-align: start;
+    color: #0080C7;
+
+}
+
+
+.consultancy-hrm .left-part h1 {
+    font-size: 32px;
+    text-align: end;
+
+}
+
+.consultancy-hrm .left-part p {
+    text-align: end;
+
+}
+
+.consultancy-education-consultancy .right-part h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0080C7;
+    text-align: start;
+}
+
+.consultancy-education-consultancy .right-part p {
+    text-align: start;
+}
+
+.consultancy-education-consultancy .right-part h6 {
+    text-align: start;
+    color: #0080C7;
+
+}
+
+.consultancy-visaImigration .left-part h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0080C7;
+    text-align: end;
+}
+
+.consultancy-visaImigration .left-part p {
+    text-align: start;
+}
+
+.consultancy-visaImigration .left-part h6 {
+    text-align: end;
+    color: #0080C7;
+
+}
+
+/* Management/consultancy In Details part end from here */
+
+
+
+/* Mangement/consultancy MD part start from here */
+
+.consultancy-md-part {
+    background-color: #006AB6;
+    width: 100%;
+    height: 80vh;
+}
+
+.consultancy-md-part img {
+
+    margin-top: 100px;
+
+}
+
+
+.consultancy-md-part h4 {
+    color: #e4e4e4;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+
+.consultancy-md-part h6 {
+    color: #e4e4e4;
+
+}
+
+.consultancy-md-part .paragraph {
+    text-align: start;
+    color: #E8E8E8;
+    font-size: 25px;
+    margin-top: 200px;
+}
+
+.consultancy-md-part span {
+    font-size: 64px;
+
+}
+
+
+
+/* Mangement/consultancy MD part end from here */
+
+/* consultancy and Management page end here */
+
+
+/* Managememt/Consultancy Sub Menu Hotel and Resort Page start from Here */
+/* hero section start from here */
+.consultancy-and-Management-hotelandResort-hero-section h1 {
+    color: #0080C7;
+    font-size: 150px;
+    font-weight: 900;
+    color: #eee;
+}
+
+.consultancy-and-Management-hotelandResort-hero-section h2 {
+    color: #0080C7;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: start;
+}
+
+.consultancy-and-Management-hotelandResort-hero-section-hero-image img {}
+
+/* hero section end from here */
+
+/* Managememt/Consultancy Sub Menu Hotel and Resort details part start from Here */
+/* hotel resort start */
+
+.consultancy-and-management-hotelAndResor-details h1 {
+    color: #0080C7;
+    font-size: 64px;
+    font-weight: 700;
+
+}
+
+.consultancy-and-management-hotelAndResor-details h4 {
+    text-align: center;
+}
+
+.consultancy-and-management-hotelAndResor-details p {
+    text-align: center;
+    color: #0080C7;
+}
+
+/* hotel resort end */
+/* hotel resort pre-opening service part start from here */
+.consultancy-hotel-resort-preopeingService h1 {
+    font-size: 34px;
+    text-align: end;
+}
+
+.consultancy-hotel-resort-preopeingService p {
+    text-align: end;
+}
+
+.consultancy-hotel-resort-preopeingService a {
+    text-align: end;
+}
+
+/* hotel resort pre-opening service part end from here */
+
+/* consultancy-hotelAndResort-turnAroundManagement start from here */
+.consultancy-hotelAndResort-turnAroundManagement h1 {
+    font-size: 34px;
+    text-align: start;
+}
+
+.consultancy-hotelAndResort-turnAroundManagement p {
+    text-align: start;
+}
+
+.consultancy-hotelAndResort-turnAroundManagement a {
+    text-align: start;
+}
+
+/* consultancy-hotelAndResort-turnAroundManagement end from here */
+
+/* hotel resort Operation Management part start from here */
+.consultancy-hotel-resort-operatonManagement h1 {
+    font-size: 34px;
+    text-align: end;
+}
+
+.consultancy-hotel-resort-operatonManagement p {
+    text-align: end;
+}
+
+.consultancy-hotel-resort-operatonManagement a {
+    text-align: end;
+}
+
+/* hotel resort Operation Management part start from here */
+
+/* consultancy-hotelAndResort-designAndConceptDevelopment start from here */
+.consultancy-hotelAndResort-designAndConceptDevelopment h1 {
+    font-size: 34px;
+    text-align: start;
+}
+
+.consultancy-hotelAndResort-designAndConceptDevelopment p {
+    text-align: start;
+}
+
+.consultancy-hotelAndResort-designAndConceptDevelopment a {
+    text-align: start;
+}
+
+/* consultancy-hotelAndResort-designAndConceptDevelopment end from here */
+
+/* consultancy-hotel-resort-developmentMarketFeasibility start from here */
+.consultancy-hotel-resort-developmentMarketFeasibility h1 {
+    font-size: 34px;
+    text-align: end;
+}
+
+.consultancy-hotel-resort-developmentMarketFeasibility p {
+    text-align: end;
+}
+
+.consultancy-hotel-resort-developmentMarketFeasibility a {
+    text-align: end;
+}
+
+/* consultancy-hotel-resort-developmentMarketFeasibility end from here */
+
+/* consultancy-hotelAndResort-businessPlanDevelopment start from here */
+.consultancy-hotelAndResort-businessPlanDevelopment h1 {
+    font-size: 34px;
+    text-align: start;
+}
+
+.consultancy-hotelAndResort-businessPlanDevelopment p {
+    text-align: start;
+}
+
+.consultancy-hotelAndResort-businessPlanDevelopment a {
+    text-align: start;
+}
+
+/* consultancy-hotelAndResort-businessPlanDevelopment end from here */
+
+/* consultancy-hotel-resort-systemDevelopmentOperationProcedure start from here */
+.consultancy-hotel-resort-systemDevelopmentOperationProcedure h1 {
+    font-size: 34px;
+    text-align: end;
+}
+
+.consultancy-hotel-resort-systemDevelopmentOperationProcedure p {
+    text-align: end;
+}
+
+.consultancy-hotel-resort-systemDevelopmentOperationProcedure a {
+    text-align: end;
+}
+
+/* consultancy-hotel-resort-systemDevelopmentOperationProcedure end from here */
+
+/* hotelAndResort-sales-and-marketing-plan-or-support start from here */
+.hotelAndResort-sales-and-marketing-plan-or-support h1 {
+    font-size: 34px;
+    text-align: start;
+}
+
+.hotelAndResort-sales-and-marketing-plan-or-support p {
+    text-align: start;
+}
+
+.hotelAndResort-sales-and-marketing-plan-or-support a {
+    text-align: start;
+}
+
+/* hotelAndResort-sales-and-marketing-plan-or-support end from here */
+
+/* consultancy-hotel-resort-training start from here */
+.consultancy-hotel-resort-training h1 {
+    font-size: 34px;
+    text-align: end;
+}
+
+.consultancy-hotel-resort-training p {
+    text-align: end;
+}
+
+.consultancy-hotel-resort-training a {
+    text-align: end;
+}
+
+/* consultancy-hotel-resort-training end from here */
+
+/* hotelAndResort-cost-control-initiative start from here */
+.hotelAndResort-cost-control-initiative h1 {
+    font-size: 34px;
+    text-align: start;
+}
+
+.hotelAndResort-cost-control-initiative p {
+    text-align: start;
+}
+
+.hotelAndResort-cost-control-initiative a {
+    text-align: start;
+}
+
+/* hotelAndResort-cost-control-initiative end from here */
+
+/* hotel-resort-finnancial-analysis start from here */
+.hotel-resort-finnancial-analysis h1 {
+    font-size: 34px;
+    text-align: end;
+}
+
+.hotel-resort-finnancial-analysis p {
+    text-align: end;
+}
+
+.hotel-resort-finnancial-analysis a {
+    text-align: end;
+}
+
+/* hotel-resort-finnancial-analysis end from here */
+
+/* hotelAndResort-Revenue-enhanchement-program start from here */
+.hotelAndResort-Revenue-enhanchement-program h1 {
+    font-size: 34px;
+    text-align: start;
+}
+
+.hotelAndResort-Revenue-enhanchement-program p {
+    text-align: start;
+}
+
+.hotelAndResort-Revenue-enhanchement-program a {
+    text-align: start;
+}
+
+/* hotelAndResort-Revenue-enhanchement-program end from here */
+
+/* hotel-resort-operationalAssesment start from here */
+.hotel-resort-operationalAssesment h1 {
+    font-size: 34px;
+    text-align: end;
+}
+
+.hotel-resort-operationalAssesment p {
+    text-align: end;
+}
+
+.hotel-resort-operationalAssesment a {
+    text-align: end;
+}
+
+/* hotel-resort-operationalAssesment end from here */
+
+/* hotelAndResort-ownerRepresentative start from here */
+.hotelAndResort-ownerRepresentative h1 {
+    font-size: 34px;
+    text-align: start;
+}
+
+.hotelAndResort-ownerRepresentative p {
+    text-align: start;
+}
+
+.hotelAndResort-ownerRepresentative a {
+    text-align: start;
+}
+
+/* hotelAndResort-ownerRepresentative end from here */
+
+/* hotel-resort-webDesignAndSoftware start from here */
+.hotel-resort-webDesignAndSoftware h1 {
+    font-size: 34px;
+    text-align: end;
+}
+
+.hotel-resort-webDesignAndSoftware p {
+    text-align: end;
+}
+
+.hotel-resort-webDesignAndSoftware a {
+    text-align: end;
+}
+
+/* hotel-resort-webDesignAndSoftware end from here */
+
+/* hotelAndResort-Revenue-enhanchement-digitalMarketing start from here */
+.hotelAndResort-Revenue-enhanchement-digitalMarketing h1 {
+    font-size: 34px;
+    text-align: start;
+}
+
+.hotelAndResort-Revenue-enhanchement-digitalMarketing p {
+    text-align: start;
+}
+
+.hotelAndResort-Revenue-enhanchement-digitalMarketing a {
+    text-align: start;
+}
+
+/* hotelAndResort-Revenue-enhanchement-digitalMarketing end from here */
+
+/* hotel-resort-branding start from here */
+.hotel-resort-branding h1 {
+    font-size: 34px;
+    text-align: end;
+}
+
+.hotel-resort-branding p {
+    text-align: end;
+}
+
+.hotel-resort-branding a {
+    text-align: end;
+}
+
+/* hotel-resort-branding end from here */
+/* footer part */
+.footer-part p {
+    color: #ffffff;
+    text-align: start;
+}
+
+/* Managememt/Consultancy Sub Menu Hotel and Resort details part end from Here */
+
+
+/* Managememt/Consultancy SUB MENU RESTAURANT details part Start from Here */
+/* HERO Section start */
+.consultancy-and-Management-Restaurant-hero-section h1 {
+    color: #e4e4e4;
+    font-size: 150px;
+    font-weight: 900;
+}
+
+.consultancy-and-Management-Restaurant-hero-section h2 {
+    color: #0080C7;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: start;
+    padding-top: 50px;
+}
+
+.consultancy-and-Management-Restaurant-hero-section img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+/* HERO Section end */
+/* RESTAURANT details part start  */
+.consultancy-and-management-Restaurant-details h1 {
+    color: #0080C7;
+    font-size: 64px;
+    font-weight: 700px;
+}
+
+.consultancy-and-management-Restaurant-details h4 {
+    color: gray;
+    font-size: 34px;
+    font-weight: 700px;
+}
+
+/* (right align text start) */
+
+.consultancy-Restaurant-preopeingService h1,
+.consultancy-Restaurant-operatonManagement h1,
+.consultancy-restaurant-Restaurant-and-Kitchen-Designing h1,
+.consultancy-restaurant-operationAssesment h1,
+.consultancy-restaurant-marketingStrategies h1,
+.consultancy-restaurant-recruitment h1,
+.consultancy-restaurant-menuEngineering h1,
+.consultancy-restaurant-websiteAndSoftware h1 {
+    color: #0080C7;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: end;
+}
+
+.consultancy-Restaurant-preopeingService p,
+.consultancy-Restaurant-operatonManagement p,
+.consultancy-restaurant-Restaurant-and-Kitchen-Designing p,
+.consultancy-restaurant-operationAssesment p,
+.consultancy-restaurant-marketingStrategies p,
+.consultancy-restaurant-recruitment p,
+.consultancy-restaurant-menuEngineering p,
+.consultancy-restaurant-websiteAndSoftware p {
+    color: #0080C7;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: end;
+}
+
+.consultancy-Restaurant-preopeingService h6,
+.consultancy-Restaurant-operatonManagement h6,
+.consultancy-restaurant-Restaurant-and-Kitchen-Designing h6,
+.consultancy-restaurant-operationAssesment h6,
+.consultancy-restaurant-marketingStrategies h6,
+.consultancy-restaurant-recruitment h6,
+.consultancy-restaurant-menuEngineering h6,
+.consultancy-restaurant-websiteAndSoftware h6 {
+    text-align: end;
+}
+
+
+
+/* (right align text end) */
+/* (left align text start) */
+.consultancy-Restaurant-turnAroundManagement h1,
+.consultancy-restaurant-NewConceptDevelopment h1,
+.consultancy-restaurant-profitEnhancementProgram h1,
+.consultancy-restaurant-brandAndBrandDevelopment h1,
+.consultancy-restaurant-training h1,
+.consultancy-restaurant-procurementAndKitchen h1,
+.consultancy-restaurant-digitalMarketing h1,
+.consultancy-restaurant-reputationManagement h1 {
+    color: #0080C7;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: start;
+}
+
+.consultancy-Restaurant-turnAroundManagement p,
+.consultancy-restaurant-NewConceptDevelopment p,
+.consultancy-restaurant-profitEnhancementProgram p,
+.consultancy-restaurant-brandAndBrandDevelopment p,
+.consultancy-restaurant-training p,
+.consultancy-restaurant-procurementAndKitchen p,
+.consultancy-restaurant-digitalMarketing p,
+.consultancy-restaurant-reputationManagement p {
+    color: #0080C7;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: start;
+}
+
+.consultancy-Restaurant-turnAroundManagement h6,
+.consultancy-restaurant-NewConceptDevelopment h6,
+.consultancy-restaurant-profitEnhancementProgram h6,
+.consultancy-restaurant-brandAndBrandDevelopment h6,
+.consultancy-restaurant-training h6,
+.consultancy-restaurant-procurementAndKitchen h6,
+.consultancy-restaurant-digitalMarketing h6,
+.consultancy-restaurant-reputationManagement h6 {
+    text-align: left;
+}
+
+/* (left align text end) */
+
+/* RESTAURANT details part end */
+
+
+/* Managememt/Consultancy SUB MENU RESTAURANT PAGE End from Here */
+
+/* Management/Consultancy SUB MENU WELLNESS CONCEPT PAGE start from here */
+/* hero section start from here */
+.consultancy-and-Management-WellnessConcept-hero-section h1 {
+    color: #e4e4e4;
+    font-size: 150px;
+    font-weight: 900;
+}
+
+.consultancy-and-Management-WellnessConcept-hero-section h2 {
+    color: #0080C7;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: start;
+}
+
+.consultancy-and-Management-WellnessConcept-hero-section p {
+    color: #0080C7;
+    text-align: left;
+}
+
+/* hero section end from here */
+/* Wellness details part start from here */
+.consultancy-and-management-wellnessConcept-details h1 {
+    color: #0080C7;
+    font-weight: 700;
+}
+
+.consultancy-and-management-wellnessConcept-details h4 {
+    color: gray;
+    font-weight: 700;
+}
+
+.consultancy-and-management-wellnessConcept-details p {
+    color: #0080C7;
+    font-weight: 700;
+}
+
+
+/* Right align text start */
+.consultancy-welnessConcept-preopeingServiceAndTraning h1,
+.consultancy-wellness-ConceptAndBrandDevelopment h1,
+.consultancy-wellness-market-research-feasibility h1 {
+    text-align: end;
+    color: #0080C7;
+    font-size: 24px;
+}
+
+.consultancy-welnessConcept-preopeingServiceAndTraning p,
+.consultancy-wellness-ConceptAndBrandDevelopment p,
+.consultancy-wellness-market-research-feasibility p {
+    text-align: end;
+    color: #0080C7;
+}
+
+.consultancy-welnessConcept-preopeingServiceAndTraning h6,
+.consultancy-wellness-ConceptAndBrandDevelopment h6,
+.consultancy-wellness-market-research-feasibility h6 {
+    text-align: end;
+    color: #0080C7;
+}
+
+/* right align text end */
+/* left align text start */
+.consultancy-wellness-Management h1,
+.consultancy-wellness-design-and-technical-services h1 {
+    text-align: start;
+    color: #0080C7;
+    font-size: 24px;
+}
+
+.consultancy-wellness-Management p,
+.consultancy-wellness-design-and-technical-services p {
+    text-align: start;
+    color: #0080C7;
+}
+
+.consultancy-wellness-Management h6,
+.consultancy-wellness-design-and-technical-services h6 {
+    text-align: start;
+    color: #0080C7;
+}
+
+/* left align text end */
+/* Wellness details part end from here */
+/* Management/Consultancy SUB MENU WELLNESS CONCEPT PAGE end from here */
+
+/* Management/Consultancy SUB MENU FRANCHISE SERVICE PAGE start from here */
+/* hero section start */
+.consultancy-and-Management-franchiseService-hero-section h1 {
+    color: #dad5d5;
+    font-size: 150px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.consultancy-and-Management-franchiseService-hero-section h2 {
+    color: #0080C7;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: start;
+}
+
+.consultancy-and-Management-franchiseService-hero-section p {
+    color: gray;
+    font-weight: 400;
+    text-align: start;
+}
+
+/* hero section end */
+/* franchise service details part start from here */
+.consultancy-and-management-franchiseService-details h1 {
+    color: #0080C7;
+    font-size: 64px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.consultancy-and-management-franchiseService-details h4 {
+    color: gray;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.consultancy-and-management-franchiseService-details p {
+    color: #0080C7;
+    text-align: center;
+    font-weight: 700;
+}
+
+.consultancy-Franchise-services-interNationalHotelBrand h1 {
+    color: #0080C7;
+    font-size: 24px;
+    text-align: end;
+}
+
+.consultancy-Franchise-services-interNationalHotelBrand p {
+    color: #0080C7;
+    text-align: end;
+}
+
+.consultancy-Franchise-services-interNationalHotelBrand h6 {
+    color: #0080C7;
+    text-align: end;
+}
+
+.consultancy-franchiseService-supportForEngagingwithInterNationalBrand h1 {
+    color: #0080C7;
+    text-align: start;
+    font-size: 24px;
+}
+
+.consultancy-franchiseService-supportForEngagingwithInterNationalBrand p {
+    color: #0080C7;
+    text-align: start;
+}
+
+.consultancy-franchiseService-supportForEngagingwithInterNationalBrand h6 {
+    color: #0080C7;
+    text-align: start;
+}
+
+/* franchise service details part end from here */
+/* Management/Consultancy SUB MENU FRANCHISE SERVICE PAGE end from here */
+
+/* MANAGEMENT/CONSULTANCY MENU PAGE END HERE */
+
+
+
+/* SUPPLY MENU PAGE START FROM HERE */
+
+/* supplies-hero-section start form here */
+.supplies-hero-section h1 {
+    color: #e4e4e4;
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.supplies-hero-section h2 {
+    color: #0080C7;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: start;
+}
+
+.supplies-hero-section p {
+    color: #0080C7;
+    text-align: start;
+}
+
+/* supplies-hero-section end from here */
+
+/* Supplies details section start from here */
+.supplies-details h1 {
+    color: #0080C7;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.supplies-details p {
+    color: gray;
+    text-align: start;
+}
+
+.product-category {
+    margin-left: 70px;
+}
+
+.supply-feature-products h1,
+.supply-Bar-and-Restaurant h1,
+.supply-Bath-Item h1,
+.supply-cleaning-Item button {
+    color: #0080C7;
+    font-size: 64px;
+    text-align: center;
+}
+
+.supplies-details h5 {
+    color: #0080C7;
+}
+
+
+.supply-feature-products {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.supply-feature-products img {
+    width: 100%;
+    height: auto;
+}
+
+.supply-feature-products button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #0080C7;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.supply-Bar-and-Restaurant {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.supply-Bar-and-Restaurant img {
+    width: 100%;
+    height: auto;
+}
+
+.supply-Bar-and-Restaurant button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #0080C7;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.supply-Bath-Item {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.supply-Bath-Item img {
+    width: 100%;
+    height: auto;
+}
+
+.supply-Bath-Item button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #0080C7;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.supplies-cleaning-Item {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.supplies-cleaning-Item img {
+    width: 100%;
+    height: auto;
+}
+
+.supplies-cleaning-Item button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #0080C7;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Supplies details section end from here */
+/* footer part start from here */
+.footer-part p {
+    text-align: left;
+}
+
+/* SUPPLY MENU PAGE END FROM HERE */
+
+/* TOURISM MENU PAGE START FROM HERE */
+/* Hero part start from here */
+.tourism-hero-section h1 {
+    color: #e4e4e4;
+    font-size: 80px;
+    font-weight: 900;
+
+}
+
+.tourism-hero-section h2 {
+    color: #0080C7;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: start;
+}
+
+.tourism-hero-section p {
+    color: #0080C7;
+    text-align: start;
+}
+
+/* Hero part end from here */
+/* Tourism details part start from here */
+.tourism-details h1 {
+    color: #0080C7;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.tourism-details p {
+    color: #0080C7;
+    text-align: center;
+}
+
+/* outbound tourism start from here */
+.outbound-tourism h1 {
+    color: #0080C7;
+    text-align: center;
+}
+
+.outbound-tourism img {
+    border-radius: 25px;
+}
+
+.outbound-tourism .offer-one {
+    border: 1px solid rgb(226, 220, 220);
+    border-radius: 25px;
+}
+
+.outbound-tourism .offer-one h4,
+h6 {
+    color: #0080C7;
+    padding: 10px 0 5px 20px;
+}
+
+.outbound-tourism .offer-one .divider {
+    color: #0080C7;
+    margin: 0 20px;
+
+}
+
+.outbound-tourism .offer-one .offer-btn {
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0080C7;
+    color: #ffff;
+    padding: 10px 20px;
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: absolute;
+    bottom: px;
+    right: 28px;
+    width: 100%;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text],
+.form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus,
+.form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+    background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+
+/* outbound tourism end from here */
+
+/* Tourism details part end from here */
+/* inbound-tourism part start from here */
+.inbound-tourism h1 {
+    color: #0080C7;
+    font-weight: 700;
+    text-align: end;
+}
+
+.inbound-tourism p {
+    color: #0080C7;
+    text-align: end;
+}
+
+.inbound-tourism h6 {
+    color: #0080C7;
+    text-align: end;
+}
+
+/* inbound-tourism part emd from here */
+
+.tourism-roomBooking {
+    background-color: #D9D9D9;
+}
+
+.tourism-roomBooking h1 {
+    color: #0080C7;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+/* tourism-cox-bazar part start from here */
+.tourism-cox-bazar h1 {
+    color: #0080C7;
+    text-align: end;
+    font-weight: 700;
+
+}
+
+.tourism-cox-bazar .Cox-Bazar ol {
+
+    margin-left: 220px;
+
+
+}
+
+.tourism-cox-bazar h6 {
+    text-align: end;
+}
+
+.tourism-cox-bazar button {
+    background-color: #0080C7;
+    border: #0080C7;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 110px;
+}
+
+/* Tour-package part start from here */
+.Tour-package-header h1 {
+    color: #0080C7;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.Tour-package {
+    border: 1px solid #0080C7;
+    background-color: #868686;
+}
+
+.Tour-package a {
+    text-align: center;
+    padding: 20px;
+}
+
+/* air-ticket part start from here */
+.air-ticket h1 {
+    color: #0080C7;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.air-ticket p {
+    color: #0080C7;
+    text-align: center;
+}
+
+.logo-malayasian-airline img {
+    width: 50%;
+    margin-bottom: -100px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.air-ticket input {
+    text-align: center;
+
+
+}
+
+/* TOURISM MENU PAGE END FROM HERE */
+
+/* REAL ESTATE MENU PAGE START from Here */
+.realEstate-hero-section h1 {
+    color: #e4e4e4;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.realEstate-hero-section h2 {
+    color: #0080C7;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: left;
+}
+
+/* real-estate-details-part start from here */
+.real-eastate-details h1 {
+    color: #0080C7;
+    font-weight: 700;
+    font-size: 45;
+}
+
+.real-estate-details-part h1 {
+    color: #0080C7
+}
+
+/* REAL ESTATE MENU PAGE End from Here */
+
+
+
+/* RECENT INSIGHT MENU PAGE START FROM HERE */
+/* Recent Insights menu Part start from here */
+.recent-insight-menu-hero-section-background-image {
+    background-image: url("/Images/RecentInsight/HeroImage.png");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.recent-insight-body-content-leftpart #horizontal-line {
+    width: 600px;
+    height: 1px;
+    background-color: #0080C7;
+    margin: 5px;
+    margin-left: 120px;
+}
+
+.recent-insight-body-content-leftpart-statistics {
+    margin-left: px;
+}
+
+.recent-insight-menu-hero-section h1 {
+    font-size: 150px;
+    color: #CECECE63;
+    text-align: center;
+    font-weight: 900;
+}
+
+.recent-insight-menu-hero-section h2 {
+    font-size: 60px;
+    color: #0080C7;
+    font-weight: 700;
+}
+
+/* body part start from here */
+.recent-insight-body-part h1 {
+    font-size: 54px;
+    color: #0080C7;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* body-content part start from here */
+.recent-insight-body-content-part {
+    position: relative;
+}
+
+.recent-insight-body-content-leftpart img {
+    /* width: 100%; */
+}
+
+.recent-insight-body-content-part button {
+    background-color: #EE3129;
+    border-color: #EE3129;
+    padding: 10px 40px 10px 40px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 10%;
+    top: 55%;
+}
+
+.recent-insight-body-content-leftpart h2 {
+    margin-left: 120px;
+}
+
+.recent-insight-body-content-leftpart p {
+    margin-left: 120px;
+    margin-right: 50px;
+}
+
+.recent-insight-body-content-part h2 {
+    margin-top: 50px;
+    font-size: 38px;
+    font-weight: 700;
+    color: #0080C7;
+}
+
+/* Recent Insigth menu Part start from here */
+
+
+/* CONTACT US MENU START FROM HERE */
+.contactUs-menu-hero-section h1 {
+    color: #e4e4e4;
+    font-size: 150px;
+    font-weight: 900;
+    text-align: center;
+}
+
+/* .contactUs-menu-hero-section h2 {
+    color: #0080C7;
+    font-size: 64px;
+    font-weight: 900;
+    text-align: center;
+} */
+
+.contactUs-menu-hero-section h2 {
+    color: #0080C7;
+    font-size: 64px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.contactUs-menu-hero-section p {
+    color: #0080C7;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+.contactUs-menu-hero-section-background-image {
+    background-image: url("/Images/contactus/HeroImage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.talk-with-our-team h1 {
+    color: #0080C7;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.talk-with-our-team h6 {
+    color: red;
+}
+
+.talk-with-our-team {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.talk-with-our-team form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.talk-with-our-team form label {
+    display: block;
+}
+
+.talk-with-our-team form p {
+    margin: 0;
+    text-align: left;
+}
+
+.full-width {
+    grid-column: 1 / 3;
+}
+
+
+.talk-with-our-team button,
+.talk-with-our-team input,
+.talk-with-our-team textarea {
+    padding: 1em;
+    width: 100%;
+}
+
+.talk-with-our-team input[type="checkbox"] {
+    padding: 0px;
+    width: 5%;
+}
+
+.talk-with-our-team button {
+    background: lightgrey;
+    width: 100%;
+    border: 0;
+    color: #0080C7;
+    font-weight: 700;
+}
+
+button:hover,
+button:focus {
+    background: gold;
+    outline: 0;
+}
+
+/* CONTACT US MENU END FROM HERE */
